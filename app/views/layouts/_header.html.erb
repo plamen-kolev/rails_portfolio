@@ -1,0 +1,31 @@
+<div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <%= link_to root_path, class: 'navbar-brand nopadding' do %>
+                            <% image_tag 'logo.svg', alt: "Website logo image in the menu", id: "logo_menu", lazy: true %>
+                        <% end %>
+
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+
+<div class="col-md-12 nopadding_left_rigt">
+    <div class="wrapper">
+        <div class="col-md-12 nopadding">
+
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                        <% if @article.thumbnail %>
+                            <%= image_tag @article.thumbnail, alt: article.title, class: thumbnail %>
+                        <% end %>
+                    <h1 class="main_head block"><%= @article.title %></h1>
+                    <p class="clarification article_date"><%= @article.created_at %></p>
+                    <% if @article.pdf %>
+                        <p>
+                            <%= link_to @article.pdf do %>
+                                PDF <span class="glyphicon glyphicon-download-alt"></span>
+                            <% end %>
+                        </p>
+                    <% end %>
+                        <div>
+                            <p class="article_container"><%= @article.body.html_safe %></p>
+                        </div>
+                    </div>
+                    <p class="article_tag_container">
+                        <% @article.tags.split(',').each do |info| %>
+                            <span class="article_tag"><%= info %></span>
+                        <% end %>
+                    </p>
+                </div>
+
+        </div>
+
+    </div>
+</div>
+
+<% content_for :links_before do %>
+    <%=  stylesheet_link_tag "styles/asciidoctor.css" %> 
+<% end %>
+
+
+<% content_for :links do %>    
+    <%=  stylesheet_link_tag "styles/github-gist.min.css" %> 
+<% end %>
+
+
+<% content_for :scripts do %>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+<% end %>

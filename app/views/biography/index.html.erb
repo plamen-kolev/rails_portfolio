@@ -1,0 +1,89 @@
+<div class="col-md-12 print_only" style="background: #e6f3ff !important;">
+    <div  id="pdf_header" class="col-md-12">
+        <div class="wrapper" style="background: #e6f3ff !important;">
+
+            <div style="background-color: #f9f9f9 !important;" id="logo_menu" class="pull-left menu_circle">
+                <% image_tag 'logo.svg' %>
+            </div>
+            <div class="pull-right">
+                <table class="contact_information">
+                    <tr></tr>
+                    <tr></tr>
+
+                    <tr class="contact-details-spacing">
+                        <td>Website</td>
+                        <td>kolev.io</td>
+                    </tr>
+
+                    <tr class="contact-details-spacing">
+                        <td>Email</td>
+                        <td>p.kolev22@gmail.com</td>
+                    </tr>
+
+                    <tr class="contact-details-spacing">
+                        <td>Github</td>
+                        <td>https://github.com/plamen-k</td>
+                    </tr>
+
+                    <tr class="contact-details-spacing">
+                        <td>LinkedIn</td>
+                        <td>https://www.linkedin.com/in/plamen-kolev-465915a7</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="col-md-12 clearfix top_margin nopadding">
+    <div class="wrapper experience">
+        <div class="experience_tr col-md-12 nopadding">
+            <div class="col-md-6 experience_left">
+                <h1>About</h1>
+                <div class="section">
+                    <p><%= @about.body.html_safe %></p>
+                </div>
+                <%= @work %>
+                <h1>Work Experience</h1>
+                <% @work_experience.each do |w| %>
+                    <div class="section">
+                        <h2><%= w.title %>s</h2>
+                        <h3><%= w.date %></h3>
+                        <p><%= w.body.html_safe %></p>
+                    </div>    
+                <% end %>
+
+                <h1>Education</h1>
+                <% @education.each do |e| %>
+                    <div class="section">
+                        <h2><%= e.title %></h2>
+                        <h3><%= e.date %></h3>
+                        <p><%= e.body.html_safe %></p>
+                    </div>
+                <% end %>
+
+            </div>
+
+            <div class="col-md-6 experience_right">
+                <h1>Projects</h1>
+                <% @projects.each do |p| %>
+                    <div class="section">
+                        <h2><%= p.title %></h2>
+                        <h3><%= p.date %></h3>
+                        <p><%= p.body.html_safe %></p>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 center web_only">
+        <a class="special_button" href="/media/{{$pdfpath}}">Download PDF version</a>
+    </div>
+</div>
+
+
+<% content_for :links do %>
+    <%= stylesheet_link_tag "print.css", media: "print" %>
+<% end %>
