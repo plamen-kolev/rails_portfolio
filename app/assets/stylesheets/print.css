@@ -1,8 +1,7 @@
 @media print {
-     body {margin-top: 0mm; margin-bottom: 0mm; 
+    body {margin-top: 0mm; margin-bottom: 0mm; 
            margin-left: 0mm; margin-right: 0mm}
 
-    }
 
     tbody{
         display: block !important;
@@ -36,7 +35,7 @@
     h3{
         font-size: 1.5em;
         font-family:'Nunito',sans-serif !important; 
-        font-weight: bold !import;
+        font-weight: bold !important;
     }
 
     p{

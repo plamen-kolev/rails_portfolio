@@ -2,8 +2,8 @@ namespace :faker do
   desc "TODO"
   task init: :environment do
 
-    Rake::Task['db:purge'].invoke
-    Rake::Task['db:migrate'].invoke
+    # Rake::Task['db:purge'].invoke
+    # Rake::Task['db:migrate'].invoke
 
     a = Article.new
     a.title = <<-HEREDOC
@@ -17,9 +17,12 @@ HEREDOC
 
     # now to generate artworks
     for i in %w(cr.jpg hackne_logo.jpg hackne_poster.jpg hackne_print.jpg lloyds_bank.jpg lux.png neven.jpg spendwell_poster.jpg spenwell_app.jpg stage_tuts.jpg)
-      Artwork.create(
-        thumbnail: "/media/images/creative/#{i}"
-      )
+      
+      File.open("#{Rails.public_path}/media/images/creative/#{i}") do |f|
+        Artwork.create(
+          image: f
+        )
+      end
     end
 
     # generate cv content
@@ -120,7 +123,18 @@ HERE
       )
     end
     
+    # Now generate the static website
+
+    ## index
+    rendered_string = PagesController.render(
+      template: 'pages/index',
+      assigns: { articles: Article.all }
+    )
+
+    File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(rendered_string) }
 
   end
+
+
 
 end

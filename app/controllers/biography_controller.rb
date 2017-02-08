@@ -6,4 +6,7 @@ class BiographyController < ApplicationController
     @projects = Skill.where(skill_type: 'project')
 
   end
+
+  def cv
+  end
 end

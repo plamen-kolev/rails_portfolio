@@ -2,11 +2,10 @@
     <div class="wrapper">
 
         <div class="design_wrap">
-            
             <% @artworks.each_with_index do |artwork, index| %>
                 <div class="thumbnail design_container">
-                    <%= link_to artwork.thumbnail, target: "_blank" ,class: "gallery_clickable" do %>
-                        <% image_tag artwork.thumbnail, id: index, lazy: true , size: "200x200", cover: "crop" %>
+                    <%= link_to artwork.image.url, target: "_blank" ,class: "gallery_clickable" do %>
+                        <%= image_tag artwork.image.versions[:thubmnail], id: index, lazy: true , size: "200x200" %>
                     <% end %>
                 </div>                    
             <% end %>
@@ -107,9 +106,9 @@
                 var items = [
                     <% @artworks.each do |artwork| %>
                         {
-                            src: "<%= artwork.thumbnail %>",
-                            w: <%= FastImage.size("http://localhost:3000#{artwork.thumbnail}")[0] %>,
-                            h: <%= FastImage.size("http://localhost:3000#{artwork.thumbnail}")[1] %>
+                            src: "<%= artwork.image.url %>",
+                            w: <%= artwork.width %>, 
+                            h: <%= artwork.height %>
                         },    
                     <% end %>
                 ];

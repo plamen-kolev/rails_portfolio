@@ -18,6 +18,7 @@
     <%= yield %>
     <%= render 'layouts/footer' %>
   </body>
-  <%= yield :scripts %>
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= yield :scripts %>
 </html>

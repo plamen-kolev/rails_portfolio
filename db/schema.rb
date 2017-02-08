@@ -24,7 +24,9 @@ ActiveRecord::Schema.define(version: 20170207193159) do
   end
 
   create_table "artworks", force: :cascade do |t|
-    t.string   "thumbnail"
+    t.string   "image"
+    t.integer  "width"
+    t.integer  "height"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

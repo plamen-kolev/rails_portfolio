@@ -10,6 +10,10 @@ gem 'rails_admin', '~> 1.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "lazyload-rails"
 gem 'fastimage', '~> 2.0', '>= 2.0.1'
+gem 'carrierwave', '~> 1.0'
+gem 'rmagick', '~> 2.15', '>= 2.15.4'
+gem 'mysql2'
+gem 'unicorn'
 # end custom gems
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

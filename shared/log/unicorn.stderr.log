@@ -1,0 +1,57 @@
+I, [2017-02-08T06:59:20.007885 #18386]  INFO -- : Refreshing Gem list
+I, [2017-02-08T06:59:21.332595 #18386]  INFO -- : listening on addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T06:59:21.332689 #18386]  INFO -- : worker=0 spawning...
+I, [2017-02-08T06:59:21.334035 #18386]  INFO -- : worker=1 spawning...
+I, [2017-02-08T06:59:21.334408 #18397]  INFO -- : worker=0 spawned pid=18397
+I, [2017-02-08T06:59:21.334505 #18397]  INFO -- : worker=0 ready
+I, [2017-02-08T06:59:21.336054 #18386]  INFO -- : master process ready
+I, [2017-02-08T06:59:21.336380 #18400]  INFO -- : worker=1 spawned pid=18400
+I, [2017-02-08T06:59:21.336493 #18400]  INFO -- : worker=1 ready
+I, [2017-02-08T06:59:53.645701 #18386]  INFO -- : reaped #<Process::Status: pid 18397 exit 0> worker=0
+I, [2017-02-08T06:59:53.645795 #18386]  INFO -- : reaped #<Process::Status: pid 18400 exit 0> worker=1
+I, [2017-02-08T06:59:53.645854 #18386]  INFO -- : master complete
+I, [2017-02-08T06:59:59.126980 #18538]  INFO -- : Refreshing Gem list
+I, [2017-02-08T07:00:00.484854 #18538]  INFO -- : unlinking existing socket=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T07:00:00.484967 #18538]  INFO -- : listening on addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T07:00:00.485033 #18538]  INFO -- : worker=0 spawning...
+I, [2017-02-08T07:00:00.486493 #18538]  INFO -- : worker=1 spawning...
+I, [2017-02-08T07:00:00.486876 #18547]  INFO -- : worker=0 spawned pid=18547
+I, [2017-02-08T07:00:00.486989 #18547]  INFO -- : worker=0 ready
+I, [2017-02-08T07:00:00.488224 #18538]  INFO -- : master process ready
+I, [2017-02-08T07:00:00.488680 #18550]  INFO -- : worker=1 spawned pid=18550
+I, [2017-02-08T07:00:00.488759 #18550]  INFO -- : worker=1 ready
+I, [2017-02-08T07:00:03.460686 #18538]  INFO -- : reaped #<Process::Status: pid 18547 exit 0> worker=0
+I, [2017-02-08T07:00:03.460769 #18538]  INFO -- : reaped #<Process::Status: pid 18550 exit 0> worker=1
+I, [2017-02-08T07:00:03.460828 #18538]  INFO -- : master complete
+I, [2017-02-08T07:00:05.659007 #18567]  INFO -- : Refreshing Gem list
+I, [2017-02-08T07:00:06.973773 #18567]  INFO -- : unlinking existing socket=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T07:00:06.973884 #18567]  INFO -- : listening on addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T07:00:06.974023 #18567]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2017-02-08T07:00:06.974078 #18567]  INFO -- : worker=0 spawning...
+I, [2017-02-08T07:00:06.975499 #18567]  INFO -- : worker=1 spawning...
+I, [2017-02-08T07:00:06.975801 #18578]  INFO -- : worker=0 spawned pid=18578
+I, [2017-02-08T07:00:06.975897 #18578]  INFO -- : worker=0 ready
+I, [2017-02-08T07:00:06.977425 #18567]  INFO -- : master process ready
+I, [2017-02-08T07:00:06.977712 #18581]  INFO -- : worker=1 spawned pid=18581
+I, [2017-02-08T07:00:06.977807 #18581]  INFO -- : worker=1 ready
+E, [2017-02-08T07:00:11.918939 #18581] ERROR -- : app error: Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml` (RuntimeError)
+E, [2017-02-08T07:00:11.919084 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:513:in `validate_secret_key_config!'
+E, [2017-02-08T07:00:11.919127 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:246:in `env_config'
+E, [2017-02-08T07:00:11.919160 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:693:in `build_request'
+E, [2017-02-08T07:00:11.919186 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:521:in `build_request'
+E, [2017-02-08T07:00:11.919220 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:521:in `call'
+E, [2017-02-08T07:00:11.919247 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2017-02-08T07:00:11.919287 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2017-02-08T07:00:11.919312 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2017-02-08T07:00:11.919336 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2017-02-08T07:00:11.919361 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+E, [2017-02-08T07:00:11.919388 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `load'
+E, [2017-02-08T07:00:11.919415 #18581] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `<main>'
+E, [2017-02-08T07:00:43.013530 #18567] ERROR -- : worker=0 PID:18578 timeout (31s > 30s), killing
+E, [2017-02-08T07:00:43.015681 #18567] ERROR -- : reaped #<Process::Status: pid 18578 SIGKILL (signal 9)> worker=0
+I, [2017-02-08T07:00:43.015773 #18567]  INFO -- : worker=0 spawning...
+I, [2017-02-08T07:00:43.017548 #18660]  INFO -- : worker=0 spawned pid=18660
+I, [2017-02-08T07:00:43.017689 #18660]  INFO -- : worker=0 ready
+I, [2017-02-08T07:02:27.564094 #18567]  INFO -- : reaped #<Process::Status: pid 18581 exit 0> worker=1
+I, [2017-02-08T07:02:27.664441 #18567]  INFO -- : reaped #<Process::Status: pid 18660 exit 0> worker=0
+I, [2017-02-08T07:02:27.664577 #18567]  INFO -- : master complete
