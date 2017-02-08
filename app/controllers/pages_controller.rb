@@ -2,6 +2,7 @@ class PagesController < ApplicationController
   def index
     @articles = Article.all
     a = render 'pages/index'
-    puts a
+    expires_in 3.days, :public => true
+    fresh_when @articles
   end
 end
