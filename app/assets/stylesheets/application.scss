@@ -603,7 +603,7 @@ h3{
     width: 100%;
     height:100%;
     background-attachment: fixed;
-    background-image: url('../assets/landing.jpg');
+    background-image: url(asset-path('landing.jpg'));
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -616,7 +616,7 @@ h3{
 
 .overlay_hack{
     position: absolute;
-    background-image: url("../assets/dark-dots.png");
+    background-image: url(asset-path('dark-dots.png'));
     width: 100%;
     top: 0;
     max-width: 100%;
