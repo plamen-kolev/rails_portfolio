@@ -1,0 +1,3864 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rxgZNTxsa/B03L//2IUdigNtz/dBdCgnRJWusiEZvyo+2jwklbGZ4MYDDUJ9YNlb44xB1+B97x/YZhlhxBf0lQ==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mkXXYlbJbRNhFNCrpJexgNxWtpq4cpQh2B1r4jo3chULh/Jz/xSfA9PLYhYBcnVRPLc4uhl7UxlE7twx3zk5qg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0Y9Lq2RR8x7V1F+aqKUCRDXk3rkn9NnURAB+vuX90/VATW66zYwBDmcL7ScNQMaV1QVQmYb9HuzY88ltAPOYSg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="sBn0TnawDEs/z+DkjVKERSUs/3HrkXaCxerHQwUunoeIMSUcPqwjdR+m2JKlaSDMApidIcnRfBVp/MgK50bIDw==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9t7IgBRlAz8lAKVJ+xZHS92NFEJLqqfqTfpYv8nKVR7O9hnSXHksAQVpnT/TLePC+jl2EmnqrX3h7Ff2K6IDlg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wAQZaKzr+X1B1kFf1UKmi6V0+Yc1wLg+m+BGRlkZCF74LMg65PfWQ2G/eSn9eQICgsCb1xeAsqk39kkPu3Fe1g==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1mytPfe3dvliedJKROsBTYjsgqZBmOfCYOdfaV/A7IruRHxvv6tZx0IQ6jxs0KXEr1jg9mPY7VXM8VAgvai6Ag==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="4bViH2iXnR2M1ggoLlY2kHHkk1zLzniUIU+unQOy7QfZnbNNIIuyI6y/MF4GbZIZVlDxDOmOcgONWaHU4dq7jw==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="GV4DMOZiDpy7Xjj02gXO7JOd2pLRL9Gfmvb/n1xARZohdtJirn4hops3AILyPmpltCm4wvNv2wg24PDWvigTEg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wqjbACRDTrRlwOzA2RMBfxzraMS0ibj2BH7RhZayfi36gApSbF9hikWp1LbxKKX2O18KlJbJsmGoaN7MdNoopQ==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fy2TdKc9+RJ1jxpDNZmzvvXGpVG+P3Lf7h9Verve4mFHBUIm7yHWLFXmIjUdohc30nLHAZx/eEhCCVozWba06Q==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Vw6scxMNhUgj8ggvt0MD7jXgb0KfSiGfcIT98N4BN75vJn0hWxGqdgObMFmfeKdnElQNEr0KKwjckvK5PGlhNg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="RUqxOCGEvUoPHrwj/BCyrOzzuc0uaJWr3VuqYEsxzkp9YmBqaZiSdC93hFXUKxYly0fbnQwonzxxTaUpqVmYwg==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7U3fo7Y4BIeuX1vSz3ruAaTQFpFCiJgfsXAPROHvRMTVZQ7x/iQruY42Y6TnQUqIg2R0wWDIkogdZgANA4cSTA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="En1MxChKAl6KOHfI9P/9zgGT4lbI+u+MJKTC9cA0JqgqVZ2WYFYtYKpRT77cxFlHJieABuq65RuIss28IlxwIA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="YbRYJVd0/GyZmpui3R6C6q/N+da5rh8td69YZbjRUHRZnIl3H2jTUrnzo9T1JSZjiHmbhpvuFbrbuVcsWrkG/A==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WOTfhJlw7CGj/vQs7yp4M2TIzbNC3hqTBFlxriQDKh1gzA7W0WzDH4OXzFrHEdy6Q3yv42CeEASoT37nxmt8lQ==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="AaHfbOWCgdewq9NvM0teAvi58rgh2rY+H+yNPrKt/dw5iQ4+rZ6u6ZDC6xkbcPqL3w2Q6AOavKmz+oJ3UMWrVA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="zv1zP5K7rXR9DOYvkfi1dgM90n35JuXLbjiumY9UGpD21aJt2qeCSl1l3lm5wxH/JImwLdtm71zCLqHQbTxMGA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="6QrMFsGaaxm0QOSOaNIFFNUY0nCNHDfBehkG1gQ0hwTRIh1EiYZEJ5Qp3PhA6aGd8qywIK9cPVbWDwmf5lzRjA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hHLqvXDi7mOFhaPFTmIeuwPQ/Iu+aa1fx4CANnTSG1+8WjvvOP7BXaXsm7NmWboyJGSe25wpp8hrlo9/lrpN1w==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="f5yVUl98/oNA3e6OHrr7J2IJsQZybE8GnXOjx5f7chhHtEQAF2DRvWC01vg2gV+uRb3TVlAsRZExZayOdZMkkA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plamen Kolev Blog</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0tYeFe4o0KxViP8q6m8Q25x6NlarjJHYfUeQvZdp2fjq/s9HpjT/knXhx1zCVLRSu85UBonMm0/RUZ/0dQGPcA==" />
+    <link rel="stylesheet" media="all" href="/assets/application-cbdb55766f73b70d6a126b95fc0069f8c3b28d0ac97b2387b9b8caa022117b56.css" data-turbolinks-track="reload" />
+    
+  </head>
+
+  <body>
+    <div class="col-md-12 nopadding">
+    <div class="wrapper">
+        <nav class="navbar main_navigator navbar-default">
+            <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="logo_menu" class="menu_circle">
+                        <a class="navbar-brand nopadding" href="/"><img alt="Website logo image in the menu" id="logo_menu" src="http://www.appelsiini.net/projects/lazyload/img/grey.gif" data-original="/assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg"></a>
+                    </div>
+                </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main_menu capital">
+                        <li><a href="/">home</a></li>
+                        <li><a href="/articles.html">Articles</a></li>
+                        <li><a href="/creative.html">Creative</a></li>
+                        <li><a href="/biography.html">Biography</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+
+    <div class="col-md-12 nopadding">
+    <div class="outer_intro">
+        <div class="landing">
+
+            <div class="overlay_hack">
+                <div class="col-md-1"></div>
+                <div class="col-md-6 slogan_wrapper">
+                    <div class="wrapper" id="responsive_landing_hack">
+                        <div class="logo_container center">
+                            <span class="glyphicon glyphicon-flash landing_icon"></span>
+                        </div>
+                        <p class="capital landing_caption">
+                        PLAMEN KOLEV:<br/>ARTICLES ON THE <br/>WEB</p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 nopadding_left_rigt top_margin">
+    <div class="wrapper">
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:37:03 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 nopadding">
+               <div class="article_thumbnail">
+                    <div class="article_wrapper">
+                    
+                        <h1 class="main_head block">
+                            <a class="hover" href="/articles/data-classification-using-neural-networks-and-genetic-programming.html">      Data classification using Neural Networks and Genetic Programming
+</a>
+                        </h1>
+                        <p class="clarification article_date">2017-02-08 06:39:35 UTC</p>
+                    
+                            <p class="article_tag_container">
+                                    <span class="article_tag">Neural networks</span>
+                                    <span class="article_tag"> Genetic Programming</span>
+                                    <span class="article_tag"> MLP</span>
+                                    <span class="article_tag"> Machine Learning</span>
+                                    <span class="article_tag"> epochx</span>
+                                    <span class="article_tag"> classification</span>
+                                    <span class="article_tag"> sigmoidal</span>
+                                
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+    <div class="col-md-12 navbar-fixed-bottom footer nopadding nomargin">
+    <div class="footer_part1"></div>
+    <div class="footer_part2">
+        <div class="wrapper">
+            <div class="col-md-12">
+                
+                
+                <div class="col-md-6 inline-block pull-left">
+                    <table>
+                        <tr>
+                            <th><strong>Contact</strong></th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><a href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Github:</td>
+                            <td><a href="https://github.com/plamen-k">https://github.com/plamen-k</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>LinkeIn:</td>
+                            <td><a href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev-465915a7</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-md-6 inline-block align-right" id="mobile_footer_right">
+                    <p>
+                        Plamen Kolev <span class="white">2016-2017</span><br/>
+                        All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+
+  <script src="/assets/application-708e4573093c972c85714ac70924789a265b657d7ba144b3463bce7f82386653.js" data-turbolinks-track="reload"></script>
+  
+</html>

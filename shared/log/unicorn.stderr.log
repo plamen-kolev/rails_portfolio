@@ -55,3 +55,156 @@ I, [2017-02-08T07:00:43.017689 #18660]  INFO -- : worker=0 ready
 I, [2017-02-08T07:02:27.564094 #18567]  INFO -- : reaped #<Process::Status: pid 18581 exit 0> worker=1
 I, [2017-02-08T07:02:27.664441 #18567]  INFO -- : reaped #<Process::Status: pid 18660 exit 0> worker=0
 I, [2017-02-08T07:02:27.664577 #18567]  INFO -- : master complete
+I, [2017-02-08T13:07:21.024942 #4693]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:07:22.721857 #4693]  INFO -- : unlinking existing socket=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T13:07:22.722061 #4693]  INFO -- : listening on addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T13:07:22.722201 #4693]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2017-02-08T13:07:22.722256 #4693]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:07:22.723513 #4693]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:07:22.723841 #4702]  INFO -- : worker=0 spawned pid=4702
+I, [2017-02-08T13:07:22.723998 #4702]  INFO -- : worker=0 ready
+I, [2017-02-08T13:07:22.725498 #4693]  INFO -- : master process ready
+I, [2017-02-08T13:07:22.725822 #4705]  INFO -- : worker=1 spawned pid=4705
+I, [2017-02-08T13:07:22.725904 #4705]  INFO -- : worker=1 ready
+I, [2017-02-08T13:07:42.329782 #4693]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:07:42.329969 #4693]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:08:38.814484 #4693]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:08:38.814895 #4693]  INFO -- : SIGWINCH ignored because we're not daemonized
+E, [2017-02-08T13:10:35.571043 #4705] ERROR -- : app error: Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml` (RuntimeError)
+E, [2017-02-08T13:10:35.571158 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:513:in `validate_secret_key_config!'
+E, [2017-02-08T13:10:35.571197 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:246:in `env_config'
+E, [2017-02-08T13:10:35.571220 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:693:in `build_request'
+E, [2017-02-08T13:10:35.571238 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:521:in `build_request'
+E, [2017-02-08T13:10:35.571255 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:521:in `call'
+E, [2017-02-08T13:10:35.571282 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2017-02-08T13:10:35.571297 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2017-02-08T13:10:35.571310 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2017-02-08T13:10:35.571323 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2017-02-08T13:10:35.571336 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+E, [2017-02-08T13:10:35.571350 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `load'
+E, [2017-02-08T13:10:35.571366 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `<main>'
+E, [2017-02-08T13:11:08.036794 #4705] ERROR -- : app error: Missing `secret_key_base` for 'production' environment, set this value in `config/secrets.yml` (RuntimeError)
+E, [2017-02-08T13:11:08.036874 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:513:in `validate_secret_key_config!'
+E, [2017-02-08T13:11:08.036894 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:246:in `env_config'
+E, [2017-02-08T13:11:08.036906 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:693:in `build_request'
+E, [2017-02-08T13:11:08.036918 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/application.rb:521:in `build_request'
+E, [2017-02-08T13:11:08.036931 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/railties-5.0.1/lib/rails/engine.rb:521:in `call'
+E, [2017-02-08T13:11:08.036944 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:562:in `process_client'
+E, [2017-02-08T13:11:08.036956 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:658:in `worker_loop'
+E, [2017-02-08T13:11:08.036972 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+E, [2017-02-08T13:11:08.036981 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:132:in `start'
+E, [2017-02-08T13:11:08.036988 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+E, [2017-02-08T13:11:08.036995 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `load'
+E, [2017-02-08T13:11:08.037002 #4705] ERROR -- : /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `<main>'
+I, [2017-02-08T13:12:03.289902 #4693]  INFO -- : reaped #<Process::Status: pid 4702 exit 0> worker=0
+I, [2017-02-08T13:12:03.289976 #4693]  INFO -- : reaped #<Process::Status: pid 4705 exit 0> worker=1
+I, [2017-02-08T13:12:03.290015 #4693]  INFO -- : master complete
+I, [2017-02-08T13:26:47.599409 #8498]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:26:48.911437 #8498]  INFO -- : unlinking existing socket=/var/www/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T13:26:48.911544 #8498]  INFO -- : listening on addr=/var/www/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T13:26:48.911679 #8498]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2017-02-08T13:26:48.911733 #8498]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:26:48.913136 #8498]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:26:48.913455 #8501]  INFO -- : worker=0 spawned pid=8501
+I, [2017-02-08T13:26:48.913540 #8501]  INFO -- : worker=0 ready
+I, [2017-02-08T13:26:48.915044 #8498]  INFO -- : master process ready
+I, [2017-02-08T13:26:48.915311 #8504]  INFO -- : worker=1 spawned pid=8504
+I, [2017-02-08T13:26:48.915401 #8504]  INFO -- : worker=1 ready
+I, [2017-02-08T13:27:39.152785 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.652184 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.682985 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.713900 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.744725 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.774978 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.805208 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.835244 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.865942 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.896271 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.926668 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.955945 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:39.986266 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.016247 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.046532 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.076750 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.106186 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.136043 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.166472 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.196860 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.226180 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.256027 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.287024 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.317857 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.348495 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.378838 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.408950 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.439157 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.469196 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.499317 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.529839 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.561042 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.591906 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.624987 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.655886 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:27:40.685035 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.763682 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.803693 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.827741 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.847804 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.867831 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.888144 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:48.923846 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:49.349871 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:49.477769 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:49.575684 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:49.743810 #8498]  INFO -- : SIGWINCH ignored because we're not daemonized
+I, [2017-02-08T13:32:50.615960 #8498]  INFO -- : reaped #<Process::Status: pid 8501 exit 0> worker=0
+I, [2017-02-08T13:32:50.616203 #8498]  INFO -- : reaped #<Process::Status: pid 8504 exit 0> worker=1
+I, [2017-02-08T13:32:50.616244 #8498]  INFO -- : master complete
+I, [2017-02-08T13:38:46.995445 #11149]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:38:48.402023 #11149]  INFO -- : unlinking existing socket=/var/www/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T13:38:48.402128 #11149]  INFO -- : listening on addr=/var/www/rails_portfolio/shared/sockets/unicorn.sock fd=11
+I, [2017-02-08T13:38:48.402183 #11149]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:38:48.403549 #11149]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:38:48.403864 #11154]  INFO -- : worker=0 spawned pid=11154
+I, [2017-02-08T13:38:48.403945 #11154]  INFO -- : worker=0 ready
+I, [2017-02-08T13:38:48.406122 #11149]  INFO -- : master process ready
+I, [2017-02-08T13:38:48.406411 #11157]  INFO -- : worker=1 spawned pid=11157
+I, [2017-02-08T13:38:48.406558 #11157]  INFO -- : worker=1 ready
+I, [2017-02-08T13:39:30.617665 #11149]  INFO -- : reaped #<Process::Status: pid 11154 exit 0> worker=0
+I, [2017-02-08T13:39:30.617749 #11149]  INFO -- : reaped #<Process::Status: pid 11157 exit 0> worker=1
+I, [2017-02-08T13:39:30.617791 #11149]  INFO -- : master complete
+I, [2017-02-08T13:39:42.904441 #11402]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:39:44.252796 #11402]  INFO -- : listening on addr=/var/www/rails_portfolio/shared/sockets/unicorn.sock fd=11
+I, [2017-02-08T13:39:44.252883 #11402]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:39:44.254327 #11402]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:39:44.254603 #11410]  INFO -- : worker=0 spawned pid=11410
+I, [2017-02-08T13:39:44.254681 #11410]  INFO -- : worker=0 ready
+I, [2017-02-08T13:39:44.256305 #11402]  INFO -- : master process ready
+I, [2017-02-08T13:39:44.256593 #11413]  INFO -- : worker=1 spawned pid=11413
+I, [2017-02-08T13:39:44.256670 #11413]  INFO -- : worker=1 ready
+I, [2017-02-08T13:48:50.076647 #11402]  INFO -- : reaped #<Process::Status: pid 11410 exit 0> worker=0
+I, [2017-02-08T13:48:50.076718 #11402]  INFO -- : reaped #<Process::Status: pid 11413 exit 0> worker=1
+I, [2017-02-08T13:48:50.076750 #11402]  INFO -- : master complete
+I, [2017-02-08T13:54:42.733219 #14711]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:54:44.017744 #14711]  INFO -- : unlinking existing socket=/var/www/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T13:54:44.017841 #14711]  INFO -- : listening on addr=/var/www/rails_portfolio/shared/sockets/unicorn.sock fd=12
+I, [2017-02-08T13:54:44.017893 #14711]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:54:44.019366 #14711]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:54:44.019651 #14726]  INFO -- : worker=0 spawned pid=14726
+I, [2017-02-08T13:54:44.019739 #14726]  INFO -- : worker=0 ready
+I, [2017-02-08T13:54:44.020885 #14711]  INFO -- : master process ready
+I, [2017-02-08T13:54:44.021146 #14729]  INFO -- : worker=1 spawned pid=14729
+I, [2017-02-08T13:54:44.021223 #14729]  INFO -- : worker=1 ready
+I, [2017-02-08T13:54:55.882482 #14711]  INFO -- : reaped #<Process::Status: pid 14726 exit 0> worker=0
+I, [2017-02-08T13:54:55.882552 #14711]  INFO -- : reaped #<Process::Status: pid 14729 exit 0> worker=1
+I, [2017-02-08T13:54:55.882624 #14711]  INFO -- : master complete
+I, [2017-02-08T13:55:03.350786 #14782]  INFO -- : Refreshing Gem list
+I, [2017-02-08T13:55:04.685775 #14782]  INFO -- : unlinking existing socket=/var/www/rails_portfolio/shared/sockets/unicorn.sock
+I, [2017-02-08T13:55:04.685882 #14782]  INFO -- : listening on addr=/var/www/rails_portfolio/shared/sockets/unicorn.sock fd=10
+I, [2017-02-08T13:55:04.685947 #14782]  INFO -- : worker=0 spawning...
+I, [2017-02-08T13:55:04.687279 #14782]  INFO -- : worker=1 spawning...
+I, [2017-02-08T13:55:04.687583 #14792]  INFO -- : worker=0 spawned pid=14792
+I, [2017-02-08T13:55:04.687665 #14792]  INFO -- : worker=0 ready
+I, [2017-02-08T13:55:04.689033 #14782]  INFO -- : master process ready
+I, [2017-02-08T13:55:04.689310 #14795]  INFO -- : worker=1 spawned pid=14795
+I, [2017-02-08T13:55:04.689394 #14795]  INFO -- : worker=1 ready

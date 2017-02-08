@@ -21,3 +21,5 @@
 .byebug_history
 tmp/
 vendor/
+shared/
+public/assets/
