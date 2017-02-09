@@ -9,10 +9,11 @@
                             <%= image_tag @article.thumbnail, alt: article.title, class: thumbnail %>
                         <% end %>
                     <h1 class="main_head block"><%= @article.title %></h1>
-                    <p class="clarification article_date"><%= @article.created_at %></p>
+                    <p class="clarification article_date"><%= @article.created_at.strftime('%d %B %Y') %></p>
+
                     <% if @article.pdf %>
                         <p>
-                            <%= link_to @article.pdf do %>
+                            <%= link_to '/media/' << @article.pdf do %>
                                 PDF <span class="glyphicon glyphicon-download-alt"></span>
                             <% end %>
                         </p>

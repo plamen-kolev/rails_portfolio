@@ -2,8 +2,8 @@ namespace :faker do
   desc "TODO"
   task init: :environment do
 
-    # Rake::Task['db:purge'].invoke
-    # Rake::Task['db:migrate'].invoke
+    Rake::Task['db:purge'].invoke
+    Rake::Task['db:migrate'].invoke
 
     a = Article.new
     a.title = <<-HEREDOC
@@ -124,15 +124,79 @@ HERE
     end
     
     # Now generate the static website
-
+    all_articles = Article.all
     ## index
-    rendered_string = PagesController.render(
+    index_page = PagesController.render(
       template: 'pages/index',
-      assigns: { articles: Article.all }
+      assigns: { articles: all_articles }
     )
 
-    File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(rendered_string) }
+    articles_all = PagesController.render(
+      template: 'articles/index',
+      assigns: { articles: all_articles }
+    )
 
+    creative = PagesController.render(
+      template: 'creatives/index',
+      assigns: { artworks: Artwork.all }
+    )
+
+
+    # grab all bio relevant stuff
+    @skills = Skill.all
+    
+    @about
+    @work_experience = []
+    @education = []
+    @projects = []
+
+    @skills.each do | skill |
+      if skill.skill_type == 'about'
+        @about = skill
+      elsif skill.skill_type == 'experience'
+        @work_experience << skill
+      elsif skill.skill_type == 'education'
+        @education << skill
+      elsif skill.skill_type == 'project'
+        @projects << skill
+      end
+
+    end
+
+    biography = PagesController.render(
+      template: 'biography/index',
+      assigns: { 
+        about: @about,
+        work_experience: @work_experience,
+        education: @education,
+        projects: @projects
+      }
+    )
+
+    # before file operations, create dependant folders
+    static_dir = 'plamen-kolev.github.io'
+    Dir.mkdir(static_dir) unless File.exists?(static_dir)
+    Dir.mkdir("#{static_dir}/articles") unless File.exists?("#{static_dir}/articles")
+
+    File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(index_page) }
+    File.open("plamen-kolev.github.io/articles.html", "w") { |file| file.write(articles_all) }
+    File.open("plamen-kolev.github.io/creative.html", "w") { |file| file.write(creative) }
+    File.open("plamen-kolev.github.io/biography.html", "w") { |file| file.write(biography) }
+
+    # now to write each article
+    all_articles.each do |article|
+      html_article = PagesController.render(
+        template: 'articles/show',
+        assigns: { article: article }
+      )
+      File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w") { |file| file.write(html_article) }
+    end
+
+    # generate pdf
+    exec("xvfb-run wkhtmltopdf --page-size A4 --viewport-size 1280x1024 http://localhost:3000/biography.html  #{Rails.root}/#{static_dir}/PlamenKolev_Resume_SoftwareEngineer_`date +'%b-%Y'`.pdf")
+
+    FileUtils.copy_entry "#{Rails.public_path}/assets", "#{Rails.root}/plamen-kolev.github.io/assets/"
+    FileUtils.copy_entry "#{Rails.public_path}/media", "#{Rails.root}/plamen-kolev.github.io/media"
   end
 
 

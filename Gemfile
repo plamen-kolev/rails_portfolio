@@ -14,6 +14,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'mysql2'
 gem 'unicorn'
+gem 'wkhtmltopdf-binary'
 # end custom gems
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
