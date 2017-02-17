@@ -7,6 +7,14 @@ end
 
 # custom gems
 gem 'rails_admin', '~> 1.1'
+gem 'addressable', '~> 2.5'
+gem 'rake', '~> 12.0'
+gem 'execjs', '~> 2.7'
+gem 'minitest', '~> 5.10', '>= 5.10.1'
+gem 'public_suffix', '~> 2.0', '>= 2.0.5'
+gem 'mini_portile2', '~> 2.1'
+gem 'autoprefixer-rails', '~> 6.7', '>= 6.7.2'
+gem 'nokogiri', '~> 1.7', '>= 1.7.0.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "lazyload-rails"
 gem 'fastimage', '~> 2.0', '>= 2.0.1'
@@ -18,8 +26,7 @@ gem 'unicorn'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -48,6 +55,8 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :development do

@@ -11,7 +11,7 @@
                         <h1 class="main_head block">
                             <%= link_to article.title, article_path(article.slug), class: "hover" %>
                         </h1>
-                        <p class="clarification article_date"><%= article.created_at %></p>
+                        <p class="clarification article_date"><%= article.created_at.strftime('%d %B %Y') %></p>
                     
                         <% if article.tags %>
                             <p class="article_tag_container">
