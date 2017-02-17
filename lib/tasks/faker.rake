@@ -2,8 +2,8 @@ namespace :faker do
   desc "TODO"
   task init: :environment do
 
-    # Rake::Task['db:purge'].invoke
-    # Rake::Task['db:migrate'].invoke
+    Rake::Task['db:purge'].invoke
+    Rake::Task['db:migrate'].invoke
 
     a = Article.new
     a.title = <<-HEREDOC
@@ -71,7 +71,7 @@ HERE
       {
         :type => 'education',
         :title => 'BSc. Computer Science, Newcastle University',
-        :date => 'September 2013 - Present',
+        :date => 'September 2013 - June 2017',
         :body => <<-HERE,
         Object-oriented programing, design &amp; development of software. Web design &amp; construction: delivery and consumption of web content, database technologies.<br> Computer Architecture: Parallel Computer Architectures<br/> Low-level
                         programing. Software Engineering - principles and life cycle, scalability and maintenance.<br/> Team projects, working as part of a group.
@@ -81,10 +81,20 @@ HERE
       # =============== PROJECTS
       {
         :type => 'project',
+        :title => "Web Platform for Digital Deployment of Virtual Servers",
+        :date => "November 2016 - Present",
+        :body => <<-HERE
+        Currently creating a platform for deployment, management and monitoring of virtual servers as part of final year dissertation.
+        Technologies used: chef, bash(unix shell), virtualbox, vagrant.
+HERE
+      },
+      {
+        :type => 'project',
         :title => 'Neven Body care',
         :date => '5 August - 28 August 2016',
         :body => <<-HERE,
-        Created a website for the Neven brand
+        Created a PHP website for the neven brand, the website is deployed <a href="https://nevv.herokuapp.com/">here</a>.
+        Website features internatiolization and stripe payment integration.
 HERE
       },
       {
