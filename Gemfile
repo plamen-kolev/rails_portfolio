@@ -22,6 +22,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'mysql2'
 gem 'unicorn'
+
 # end custom gems
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -57,6 +58,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'listen', '~> 3.1', '>= 3.1.5'
 end
 
 group :development do
