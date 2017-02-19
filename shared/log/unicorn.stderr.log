@@ -208,3 +208,171 @@ I, [2017-02-08T13:55:04.687665 #14792]  INFO -- : worker=0 ready
 I, [2017-02-08T13:55:04.689033 #14782]  INFO -- : master process ready
 I, [2017-02-08T13:55:04.689310 #14795]  INFO -- : worker=1 spawned pid=14795
 I, [2017-02-08T13:55:04.689394 #14795]  INFO -- : worker=1 ready
+I, [2017-02-18T08:46:02.969436 #12829]  INFO -- : Refreshing Gem list
+F, [2017-02-18T08:46:04.705963 #12829] FATAL -- : error adding listener addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock
+/home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:116:in `bind_listen': socket=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock specified but it is not a socket! (ArgumentError)
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `load'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `<main>'
+I, [2017-02-18T08:46:09.369796 #12851]  INFO -- : Refreshing Gem list
+F, [2017-02-18T08:46:10.765635 #12851] FATAL -- : error adding listener addr=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock
+/home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:116:in `bind_listen': socket=/home/hallagat/Projects/rails_portfolio/shared/sockets/unicorn.sock specified but it is not a socket! (ArgumentError)
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `load'
+	from /home/hallagat/Projects/rails_portfolio/vendor/ruby/2.3.0/bin/unicorn:23:in `<main>'
+I, [2017-02-18T08:47:09.698065 #13063]  INFO -- : Refreshing Gem list
+I, [2017-02-18T08:47:11.048186 #13063]  INFO -- : listening on addr=127.0.0.1:8080 fd=12
+I, [2017-02-18T08:47:11.048314 #13063]  INFO -- : worker=0 spawning...
+I, [2017-02-18T08:47:11.049840 #13063]  INFO -- : worker=1 spawning...
+I, [2017-02-18T08:47:11.050187 #13086]  INFO -- : worker=0 spawned pid=13086
+I, [2017-02-18T08:47:11.050281 #13086]  INFO -- : worker=0 ready
+I, [2017-02-18T08:47:11.052139 #13063]  INFO -- : master process ready
+I, [2017-02-18T08:47:11.052455 #13089]  INFO -- : worker=1 spawned pid=13089
+I, [2017-02-18T08:47:11.052550 #13089]  INFO -- : worker=1 ready
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET / HTTP/1.1" 200 - 3.4762
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET / HTTP/1.1" 200 - 3.2493
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /application.self-59f91f490be4d370cd15f39f0a349223b23ee787c61f69b702a5960453e32f0e.css?body=1 HTTP/1.1" 200 387170 0.0179
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1 HTTP/1.1" 200 293431 0.0103
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1 HTTP/1.1" 200 21600 0.0030
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1 HTTP/1.1" 200 1832 0.0026
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1 HTTP/1.1" 200 2285 0.0036
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1 HTTP/1.1" 200 3825 0.0026
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1 HTTP/1.1" 200 7142 0.0039
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1 HTTP/1.1" 200 5992 0.0037
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1 HTTP/1.1" 200 4744 0.0042
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1 HTTP/1.1" 200 9988 0.0031
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1 HTTP/1.1" 200 3906 0.0031
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1 HTTP/1.1" 200 4839 0.0058
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1 HTTP/1.1" 200 4708 0.0058
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1 HTTP/1.1" 200 16720 0.0055
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1 HTTP/1.1" 200 3164 0.0087
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1 HTTP/1.1" 200 12 0.0107
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /jquery.lazyload.self-cd4d7bf22d03a46e8d5293078376a8029eb57c7f15c6a652376215fd511840bf.js?body=1 HTTP/1.1" 200 9049 0.0050
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /script.self-8bd7d4b3b7aca0f94cfa6eb7f9985af61f2f0f8f0bd0d2345236c630e095770f.js?body=1 HTTP/1.1" 200 475 0.0053
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /application.self-9b9be17d3c356f1a9a23b03b3b5d01bb4e46845459cc7ac189cd20f571fefb23.js?body=1 HTTP/1.1" 200 664 0.0133
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2 HTTP/1.1" 200 18028 0.0029
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /assets/dark-dots-50a86c62631501bb14cde68303f4b5ebf83bc749dfb1dd5e07d102bedb0873f6.png HTTP/1.1" 200 89 0.0019
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /assets/landing-c2af8bf7162eb9085cffae06c87c0be2ad8a52191e9b6600384821600ca52b7e.jpg HTTP/1.1" 200 188359 0.0173
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /assets/logo-161a20f47c35dad89bdb75c577d99d5f9bee4b4b39b80134193829702d20c24b.svg HTTP/1.1" 200 2047 0.0028
+127.0.0.1 - - [18/Feb/2017:08:47:20 +0000] "GET /assets/favicon-b4efd2171ee890e5dd7d1621f5f267318f46d46c368105bb1fb92bc0466a4e92.png HTTP/1.1" 200 3244 0.0036
+127.0.0.1 - - [18/Feb/2017:08:47:23 +0000] "GET /biography.html HTTP/1.1" 200 - 0.0832
+127.0.0.1 - - [18/Feb/2017:08:47:24 +0000] "GET /print.self-6f5d21ca9151a9bc56cdf6ac582b98eb1cbb6fd41cde24522056cae5b2d2e899.css?body=1 HTTP/1.1" 200 2184 0.0046
+127.0.0.1 - - [18/Feb/2017:08:47:24 +0000] "GET /articles.html HTTP/1.1" 200 - 0.0487
+I, [2017-02-18T08:47:29.382471 #13063]  INFO -- : reaped #<Process::Status: pid 13086 exit 0> worker=0
+I, [2017-02-18T08:47:29.382557 #13063]  INFO -- : reaped #<Process::Status: pid 13089 exit 0> worker=1
+I, [2017-02-18T08:47:29.382645 #13063]  INFO -- : master complete
+I, [2017-02-18T08:49:10.975164 #13662]  INFO -- : Refreshing Gem list
+I, [2017-02-18T08:49:12.359836 #13662]  INFO -- : listening on addr=127.0.0.1:8080 fd=9
+I, [2017-02-18T08:49:12.359939 #13662]  INFO -- : worker=0 spawning...
+I, [2017-02-18T08:49:12.361523 #13662]  INFO -- : worker=1 spawning...
+I, [2017-02-18T08:49:12.361811 #13671]  INFO -- : worker=0 spawned pid=13671
+I, [2017-02-18T08:49:12.361902 #13671]  INFO -- : worker=0 ready
+I, [2017-02-18T08:49:12.363630 #13662]  INFO -- : master process ready
+I, [2017-02-18T08:49:12.363895 #13674]  INFO -- : worker=1 spawned pid=13674
+I, [2017-02-18T08:49:12.363986 #13674]  INFO -- : worker=1 ready
+127.0.0.1 - - [18/Feb/2017:08:49:18 +0000] "GET / HTTP/1.0" 200 - 0.0424
+127.0.0.1 - - [18/Feb/2017:08:49:18 +0000] "GET /404 HTTP/1.0" 404 1564 0.0106
+127.0.0.1 - - [18/Feb/2017:08:49:20 +0000] "GET / HTTP/1.0" 304 - 0.0383
+127.0.0.1 - - [18/Feb/2017:08:49:20 +0000] "GET /404 HTTP/1.0" 404 1564 0.0032
+127.0.0.1 - - [18/Feb/2017:08:49:24 +0000] "GET / HTTP/1.0" 304 - 0.0099
+127.0.0.1 - - [18/Feb/2017:08:49:24 +0000] "GET /404 HTTP/1.0" 404 1564 0.0022
+127.0.0.1 - - [18/Feb/2017:08:49:26 +0000] "GET / HTTP/1.0" 304 - 0.0067
+127.0.0.1 - - [18/Feb/2017:08:49:26 +0000] "GET /404 HTTP/1.0" 404 1564 0.0026
+127.0.0.1 - - [18/Feb/2017:08:49:37 +0000] "GET /404 HTTP/1.0" 404 1564 0.0023
+127.0.0.1 - - [18/Feb/2017:08:49:44 +0000] "GET / HTTP/1.0" 304 - 0.0084
+127.0.0.1 - - [18/Feb/2017:08:49:44 +0000] "GET /404 HTTP/1.0" 404 1564 0.0026
+127.0.0.1 - - [18/Feb/2017:08:49:49 +0000] "GET /404 HTTP/1.0" 404 1564 0.0032
+127.0.0.1 - - [18/Feb/2017:08:49:50 +0000] "GET /articles.html HTTP/1.0" 200 - 0.0128
+127.0.0.1 - - [18/Feb/2017:08:49:50 +0000] "GET /404 HTTP/1.0" 404 1564 0.0025
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /404 HTTP/1.0" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /creative.html HTTP/1.0" 200 - 0.0223
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /404 HTTP/1.0" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /404 HTTP/1.0" 404 1564 0.0018
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /404 HTTP/1.0" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /biography.html HTTP/1.0" 200 - 0.0158
+127.0.0.1 - - [18/Feb/2017:08:49:51 +0000] "GET /404 HTTP/1.0" 404 1564 0.0021
+127.0.0.1 - - [18/Feb/2017:08:49:52 +0000] "GET /404 HTTP/1.0" 404 1564 0.0022
+127.0.0.1 - - [18/Feb/2017:08:49:52 +0000] "GET /404 HTTP/1.0" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:49:52 +0000] "GET /404 HTTP/1.0" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:49:53 +0000] "GET /404 HTTP/1.0" 404 1564 0.0021
+I, [2017-02-18T08:49:56.576831 #13662]  INFO -- : reaped #<Process::Status: pid 13671 exit 0> worker=0
+I, [2017-02-18T08:49:56.576923 #13662]  INFO -- : reaped #<Process::Status: pid 13674 exit 0> worker=1
+I, [2017-02-18T08:49:56.576989 #13662]  INFO -- : master complete
+I, [2017-02-18T08:50:03.126312 #13869]  INFO -- : Refreshing Gem list
+I, [2017-02-18T08:50:04.544197 #13869]  INFO -- : listening on addr=127.0.0.1:8080 fd=9
+I, [2017-02-18T08:50:04.544361 #13869]  INFO -- : worker=0 spawning...
+I, [2017-02-18T08:50:04.547113 #13869]  INFO -- : worker=1 spawning...
+I, [2017-02-18T08:50:04.547467 #13882]  INFO -- : worker=0 spawned pid=13882
+I, [2017-02-18T08:50:04.547609 #13882]  INFO -- : worker=0 ready
+I, [2017-02-18T08:50:04.550511 #13869]  INFO -- : master process ready
+I, [2017-02-18T08:50:04.550840 #13885]  INFO -- : worker=1 spawned pid=13885
+I, [2017-02-18T08:50:04.550984 #13885]  INFO -- : worker=1 ready
+127.0.0.1 - - [18/Feb/2017:08:50:08 +0000] "GET / HTTP/1.0" 304 - 0.0456
+127.0.0.1 - - [18/Feb/2017:08:50:08 +0000] "GET /404 HTTP/1.0" 404 1564 0.0156
+127.0.0.1 - - [18/Feb/2017:08:50:09 +0000] "GET / HTTP/1.0" 304 - 0.0375
+127.0.0.1 - - [18/Feb/2017:08:50:09 +0000] "GET /404 HTTP/1.0" 404 1564 0.0038
+I, [2017-02-18T08:50:22.622220 #13869]  INFO -- : reaped #<Process::Status: pid 13882 exit 0> worker=0
+I, [2017-02-18T08:50:22.622298 #13869]  INFO -- : reaped #<Process::Status: pid 13885 exit 0> worker=1
+I, [2017-02-18T08:50:22.622353 #13869]  INFO -- : master complete
+I, [2017-02-18T08:53:17.939117 #14761]  INFO -- : Refreshing Gem list
+I, [2017-02-18T08:53:19.392043 #14761]  INFO -- : listening on addr=127.0.0.1:8080 fd=9
+I, [2017-02-18T08:53:19.392213 #14761]  INFO -- : worker=0 spawning...
+I, [2017-02-18T08:53:19.393684 #14761]  INFO -- : worker=1 spawning...
+I, [2017-02-18T08:53:19.394018 #14773]  INFO -- : worker=0 spawned pid=14773
+I, [2017-02-18T08:53:19.394142 #14773]  INFO -- : worker=0 ready
+I, [2017-02-18T08:53:19.395373 #14761]  INFO -- : master process ready
+I, [2017-02-18T08:53:19.395654 #14776]  INFO -- : worker=1 spawned pid=14776
+I, [2017-02-18T08:53:19.395755 #14776]  INFO -- : worker=1 ready
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /biography.html HTTP/1.1" 200 - 0.0423
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /404 HTTP/1.1" 404 1564 0.0027
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /404 HTTP/1.1" 404 1564 0.0027
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /404 HTTP/1.1" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /404 HTTP/1.1" 404 1564 0.0072
+127.0.0.1 - - [18/Feb/2017:08:53:22 +0000] "GET /404 HTTP/1.1" 404 1564 0.0016
+127.0.0.1 - - [18/Feb/2017:08:53:23 +0000] "GET /biography.html HTTP/1.1" 304 - 0.0057
+127.0.0.1 - - [18/Feb/2017:08:53:23 +0000] "GET /404 HTTP/1.1" 404 1564 0.0022
+127.0.0.1 - - [18/Feb/2017:08:53:23 +0000] "GET /404 HTTP/1.1" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:53:23 +0000] "GET /404 HTTP/1.1" 404 1564 0.0023
+127.0.0.1 - - [18/Feb/2017:08:53:23 +0000] "GET /404 HTTP/1.1" 404 1564 0.0025
+127.0.0.1 - - [18/Feb/2017:08:53:25 +0000] "GET / HTTP/1.1" 200 - 0.0379
+127.0.0.1 - - [18/Feb/2017:08:53:25 +0000] "GET /404 HTTP/1.1" 404 1564 0.0025
+127.0.0.1 - - [18/Feb/2017:08:53:25 +0000] "GET /404 HTTP/1.1" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:53:25 +0000] "GET /404 HTTP/1.1" 404 1564 0.0023
+127.0.0.1 - - [18/Feb/2017:08:53:26 +0000] "GET / HTTP/1.1" 304 - 0.0067
+127.0.0.1 - - [18/Feb/2017:08:53:26 +0000] "GET /404 HTTP/1.1" 404 1564 0.0020
+127.0.0.1 - - [18/Feb/2017:08:53:26 +0000] "GET /404 HTTP/1.1" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:53:26 +0000] "GET /404 HTTP/1.1" 404 1564 0.0018
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /creative.html HTTP/1.1" 200 - 0.0232
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0027
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0023
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0025
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0018
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0027
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0017
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0017
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0021
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0026
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0025
+127.0.0.1 - - [18/Feb/2017:08:53:27 +0000] "GET /404 HTTP/1.1" 404 1564 0.0024
+127.0.0.1 - - [18/Feb/2017:08:53:33 +0000] "GET /404 HTTP/1.1" 404 1564 0.0026
+127.0.0.1 - - [18/Feb/2017:08:53:33 +0000] "GET /404 HTTP/1.1" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:53:33 +0000] "GET /404 HTTP/1.1" 404 1564 0.0019
+127.0.0.1 - - [18/Feb/2017:08:53:36 +0000] "GET /404 HTTP/1.0" 404 1564 0.0023
+127.0.0.1 - - [18/Feb/2017:08:53:39 +0000] "GET /404 HTTP/1.0" 404 1564 0.0021
+127.0.0.1 - - [18/Feb/2017:08:53:44 +0000] "GET / HTTP/1.0" 200 - 0.0071
+127.0.0.1 - - [18/Feb/2017:08:53:44 +0000] "GET /404 HTTP/1.0" 404 1564 0.0027
+I, [2017-02-18T08:54:07.309918 #14761]  INFO -- : reaped #<Process::Status: pid 14773 exit 0> worker=0
+I, [2017-02-18T08:54:07.309995 #14761]  INFO -- : reaped #<Process::Status: pid 14776 exit 0> worker=1
+I, [2017-02-18T08:54:07.310041 #14761]  INFO -- : master complete
