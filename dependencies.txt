@@ -3,4 +3,4 @@ sudo apt-get install ruby-dev imagemagick libmagickwand-dev libmysqld-dev libsql
 sudo gem install bundle
 
 # Create new user
-Admin.create(:email => 'local@host.com', :password => 'password', :password_confirmation => 'password')
+Admin.create(:email => 'admin@kolev.io', :password => 'password', :password_confirmation => 'password')
