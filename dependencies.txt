@@ -1,0 +1,6 @@
+# Ubuntu dependencies
+sudo apt-get install ruby-dev imagemagick libmagickwand-dev libmysqld-dev libsqlite3-dev nodejs -y
+sudo gem install bundle
+
+# Create new user
+Admin.create(:email => 'admin@kolev.io', :password => 'password', :password_confirmation => 'password')

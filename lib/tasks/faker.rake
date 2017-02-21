@@ -904,11 +904,17 @@ HEREDOC
         :type => 'about',
         :title => '',
         :body => <<-HERE,
-        <p>My name is Plamen Kolev and I am a Newcastle, England based developer specializing in web application development, system automation and Web Application deployment. I enjoy playing with emerging technologies and stay up to date with tech
-          trends.
+        <p>
+My name is Plamen Kolev and I am a Newcastle based
+developer specializing in web application development,
+system automation and web application deployment. I
+enjoy playing with emerging technologies to build better
+software.
         </p>
         <p>
-            In the past years, I have gained knowledge in Perl, Bash, Unix-based operating systems, python for web development and PHP.<br/>
+I have worked with Perl, Bash, python for web
+development, PHP and ruby. I am a strong advocate for
+Linux and love working with open-source software.
         </p>
 HERE
         :date => ''
@@ -917,10 +923,13 @@ HERE
       # ======= EXPERIENCE
       {
         :type => 'experience',
-        :title => 'Software Engineer Intern, Intel Corporation',
+        :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
         :body => <<-HERE,
-          Worked on high-performing, cyber security projects. Created automated tests using bash, Perl and  in-house tools. Developed scripts to automate product integration and deployment in a large, multi-national team        
+          Worked on high-performing, cyber security projects.
+Created automated tests using bash, Perl and in-house
+tools. Developed scripts to automate product integration
+and deployment in a large, multi-national team.
 HERE
       },
       {
@@ -942,11 +951,16 @@ HERE
       # ===== EDUCATION
       {
         :type => 'education',
-        :title => 'BSc. Computer Science, Newcastle University',
+        :title => 'BSc. Computer Science,<br/> Newcastle University',
         :date => 'September 2013 - June 2017',
         :body => <<-HERE,
-        Object-oriented programing, design &amp; development of software. Web design &amp; construction: delivery and consumption of web content, database technologies.<br> Computer Architecture: Parallel Computer Architectures<br/> Low-level
-                        programing. Software Engineering - principles and life cycle, scalability and maintenance.<br/> Team projects, working as part of a group.
+Studied object-oriented programing - design &
+development. relational database technologies.
+Computer Architecture: Parallel Computer Architectures.
+Software Engineering - principles and life cycle,
+scalability and maintenance.
+Team projects, working as part of a group.
+Distributed systems and modelling concurrent systems.
 HERE
 
       },
@@ -956,8 +970,11 @@ HERE
         :title => "Web Platform for Digital Deployment of Virtual Servers",
         :date => "November 2016 - Present",
         :body => <<-HERE
-        Currently creating a platform for deployment, management and monitoring of virtual servers as part of final year dissertation.
-        Technologies used: chef, bash(unix shell), virtualbox, vagrant.
+Currently creating a platform for deployment, management
+and monitoring of virtual servers as part of final year
+dissertation.
+Technologies used: Puppet, BASH shell, Virtualbox,
+Vagrant, Ruby, Ruby On Rails.
 HERE
       },
       {
@@ -965,8 +982,8 @@ HERE
         :title => 'Neven Body care',
         :date => '5 August - 28 August 2016',
         :body => <<-HERE,
-        Created a PHP website for the neven brand, the website is deployed <a href="https://nevv.herokuapp.com/">here</a>.
-        Website features internatiolization and stripe payment integration.
+        Created a PHP website for the Neven brand, the website is deployed <a href="https://nevv.herokuapp.com/">here</a>.
+        It features internationalisation and stripe payment integration.
 HERE
       },
       {
@@ -974,6 +991,9 @@ HERE
         :title => 'Secure Coding Presentation',
         :date => "5 May 2016",
         :body => <<-HERE,
+Gave a presentation in Lester College about different ways
+code can be exploited by a malicious user and ways to
+mitigate and avoid such cases.
 HERE
       },
       {
@@ -981,7 +1001,18 @@ HERE
         :title => 'Lloyds Banking',
         :date => '31 October 2014',
         :body => <<-HERE,
-          Co-organized a hackathon in the North East, United Kingdom backed by Major League Hacking EU.<br/> Created the website for the event, PR and print design materials.
+Developed and designed a website with restful API that
+hooks to an Android application for the British bank
+Lloyds. The product was produced as part of a team
+project.
+HERE
+      },
+      {
+        :type => 'project',
+        :title => "HackNE Hackathon",
+        :date => '31 October 2014',
+        :body => <<-HERE
+Co-organized a hackathon in the North East, United Kingdom backed by Major League Hacking EU.<br/> Created the website for the event, PR and print design materials.
 HERE
       },
       {
