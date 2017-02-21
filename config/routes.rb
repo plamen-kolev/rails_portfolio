@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get '/articles/:slug.html', to: 'articles#show', as: 'article'
   get '/creative.html', to: 'creatives#index', as: 'creative'
   get '/biography.html', to: 'biography#index', as: 'biography'
-
+  
+  get '/four_oh_four', to: 'pages#error_404', as: 'fourohfour', :via => :all
   get '/cv.pdf', to: 'biography#cv', as: 'cv'
+
 end
