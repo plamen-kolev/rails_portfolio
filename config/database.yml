@@ -22,10 +22,4 @@ test:
 
 production:
   <<: *default
-  adapter: mysql2
-  encoding: utf8
-  database: rails_portfolio
-  username: admin
-  password: password
-  host: 127.0.0.1
-  port: 3306
+  database: db/development.sqlite3
