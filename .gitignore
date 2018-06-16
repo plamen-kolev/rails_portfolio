@@ -16,8 +16,9 @@ vagrant/.vagrant
 /log/*
 /tmp/*
 !/log/.keep
+public/media/images/creative/*
 !/tmp/.keep
-
+.vscode
 # Ignore Byebug command history file.
 .byebug_history
 tmp/

@@ -61,6 +61,10 @@ tr{
     background-color: white !important;
 }
 
+.main_content {
+    min-height: 600px;
+}
+
 .main_menu a{
     text-decoration: none;
 }
@@ -259,10 +263,6 @@ h1{
     // margin-left: 20px;
 }
 
-a:hover {
-
-}
-
 .hover:hover{
     text-decoration: none;
     background:black;
@@ -419,7 +419,6 @@ h3{
 }
 
 #titlebar  p{
-    display: inline-block;
     float:right;
 }
 
@@ -611,10 +610,6 @@ h3{
     background-position: bottom;
 }
 
-.landing > .wrapper{
-
-}
-
 .overlay_hack{
     position: absolute;
     background-image: url(asset-path('dark-dots.png'));
@@ -627,8 +622,7 @@ h3{
 .outer_intro{
     background-repeat: no-repeat;
     background-color: #e6ecf3;
-    height: 406px;
-
+    height:700px;
 }
 
 .slogan_wrapper{
@@ -892,7 +886,6 @@ h3{
         float: right;
         text-align: right;
         /* border: solid 1px; */
-        display: inline-block;
         color: black;
     }
     

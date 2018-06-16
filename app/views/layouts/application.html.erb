@@ -15,7 +15,9 @@
 
   <body>
     <%= render 'layouts/header' %>
-    <%= yield %>
+    <div class="col-md-12 nopadding nomargin main_content">
+      <%= yield %>
+    </div>
     <%= render 'layouts/footer' %>
   </body>
 
