@@ -905,16 +905,10 @@ HEREDOC
         :title => '',
         :body => <<-HERE,
         <p>
-My name is Plamen Kolev and I am a Newcastle based
-developer specializing in web application development,
-system automation and web application deployment. I
-enjoy playing with emerging technologies to build better
-software.
+        My name is Plamen Kolev and I am a Manchester based developer specializing in web application development, system automation and web application deployment. I enjoy playing with emerging technologies and love to build and test software. 
         </p>
         <p>
-I have worked with Perl, Bash, python for web
-development, PHP and ruby. I am a strong advocate for
-Linux and love working with open-source software.
+        I have worked with Perl, Bash, Python, PHP, Ruby and Enterprise Java. I am a strong advocate of Linux and love working with open-source technologies.
         </p>
 HERE
         :date => ''
@@ -923,13 +917,18 @@ HERE
       # ======= EXPERIENCE
       {
         :type => 'experience',
+        :title => 'Software Engineer,<br/>The Hut Group',
+        :date => 'August 2017 - Present',
+        :body => <<-HERE,
+        Worked on the in-house warehouse management system as part of the Internal Movements Team. Delivered features in <strong>Agile</strong> environment. Also wrote a library for testing and automation to accelerate the development process, please ask me about it!
+HERE
+      },
+      {
+        :type => 'experience',
         :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
         :body => <<-HERE,
-          Worked on high-performing, cyber security projects.
-Created automated tests using bash, Perl and in-house
-tools. Developed scripts to automate product integration
-and deployment in a large, multi-national team.
+        Worked on high-performing, Cyber Security projects. Created automated tests using BASH, Perl and in-house tools. Developed scripts to automate product integration and deployment as part of a large, multi-national team.
 HERE
       },
       {
@@ -940,27 +939,13 @@ HERE
           Conducted national studies across Britain on socio-political issues
 HERE
       },
-      {
-        :type => 'experience',
-        :title => 'Graphic Designer, Ivesto Company',
-        :date =>  'September 2012 - June 2013',
-        :body => <<-HERE
-          Worked full time as a website manager and designer where I had the opportunity to improve the user experience and maintain the two websites of the company.
-HERE
-      },
       # ===== EDUCATION
       {
         :type => 'education',
         :title => 'BSc. Computer Science,<br/> Newcastle University',
         :date => 'September 2013 - June 2017',
         :body => <<-HERE,
-Studied object-oriented programing - design &
-development. relational database technologies.
-Computer Architecture: Parallel Computer Architectures.
-Software Engineering - principles and life cycle,
-scalability and maintenance.
-Team projects, working as part of a group.
-Distributed systems and modelling concurrent systems.
+        Achieved First Class Honours degree in Computer Science with Industrial Placement. Studied software design & development. RDB technologies, Computer Architecture: Parallel computing and Biocomputing.
 HERE
 
       },
@@ -968,13 +953,10 @@ HERE
       {
         :type => 'project',
         :title => "Web Platform for Digital Deployment of Virtual Servers",
-        :date => "November 2016 - Present",
+        :date => "November 2016 - June 2017",
         :body => <<-HERE
-Currently creating a platform for deployment, management
-and monitoring of virtual servers as part of final year
-dissertation.
-Technologies used: Puppet, BASH shell, Virtualbox,
-Vagrant, Ruby, Ruby On Rails.
+        Created a platform for deployment, management and monitoring of virtual servers as part of BSC final year dissertation. Technologies used: Puppet, BASH shell, Virtualbox, Vagrant, Ruby, Ruby On Rails.
+
 HERE
       },
       {
@@ -982,8 +964,7 @@ HERE
         :title => 'Neven Body care',
         :date => '5 August - 28 August 2016',
         :body => <<-HERE,
-        Created a PHP website for the Neven brand, the website is deployed <a href="https://nevv.herokuapp.com/">here</a>.
-        It features internationalisation and stripe payment integration.
+        Created a PHP website for the Neven brand as part of a case study for creating web platforms. The project aimed to create an interactive system for featuring natural care products.
 HERE
       },
       {
@@ -991,9 +972,8 @@ HERE
         :title => 'Secure Coding Presentation',
         :date => "5 May 2016",
         :body => <<-HERE,
-Gave a presentation in Lester College about different ways
-code can be exploited by a malicious user and ways to
-mitigate and avoid such cases.
+        Gave a presentation in Leicester College about different ways code can be exploited by a malicious user and ways to mitigate and avoid such cases.
+
 HERE
       },
       {
@@ -1001,10 +981,8 @@ HERE
         :title => 'Lloyds Banking',
         :date => '31 October 2014',
         :body => <<-HERE,
-Developed and designed a website with restful API that
-hooks to an Android application for the British bank
-Lloyds. The product was produced as part of a team
-project.
+        Developed and designed a website with restful API that hooks to an Android application for the British bank Lloyds. The product was produced as part of a team project.
+
 HERE
       },
       {
@@ -1012,7 +990,8 @@ HERE
         :title => "HackNE Hackathon",
         :date => '31 October 2014',
         :body => <<-HERE
-Co-organized a hackathon in the North East, United Kingdom backed by Major League Hacking EU.<br/> Created the website for the event, PR and print design materials.
+        Co-organized a hackathon in the North East, United Kingdom backed by Major League Hacking EU. Created the website for the event, PR and print design materials.
+
 HERE
       },
       {
@@ -1020,7 +999,8 @@ HERE
         :title => 'PAConsulting',
         :date => '12 February 2014',
         :body => <<-HERE,
-          Developed an environmental friendly hardware &amp; software solution with the Raspberry Pi that involves predictive light automation and control.
+        Developed an environmental friendly hardware & software solution with the Raspberry Pi that involves predictive light automation and control.
+
 HERE
       }
 
