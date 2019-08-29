@@ -20,7 +20,7 @@ gem "lazyload-rails"
 gem 'fastimage', '~> 2.0', '>= 2.0.1'
 gem 'carrierwave', '~> 1.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
-gem 'mysql2'
+gem 'sqlite3', '~> 1.3', '< 1.4'
 gem 'unicorn'
 gem 'listen', '~> 3.0.5'
 gem 'devise', '~> 4.2'
@@ -58,7 +58,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3', '< 1.4'
+
 end
 
 group :development do
