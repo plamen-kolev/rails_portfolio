@@ -1,3 +1,5 @@
+
+markdown = markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {})
 namespace :faker do
   desc "TODO"
   task init: :environment do
@@ -903,32 +905,37 @@ HEREDOC
       {
         :type => 'about',
         :title => '',
-        :body => <<-HERE,
-        <p>
-        My name is Plamen Kolev and I am a Manchester based developer specializing in web application development, system automation and web application deployment. I enjoy playing with emerging technologies and love to build and test software. 
-        </p>
-        <p>
-        I have worked with Perl, Bash, Python, PHP, Ruby and Enterprise Java. I am a strong advocate of Linux and love working with open-source technologies.
-        </p>
+        :body => markdown.render(<<-HERE),
+I have worked with established technologies such as Enterprise Java, Perl, Ruby Bash and Linux.
+I have also worked with new and emerging technologies such as Docker, Hazelcast; in-memory data grid, Amazon Web Services, React and Node JS.
+In my professional experience, I have used established software patterns and methodologies to deliver high quality, reliable, and robust software.
+
+I believe in Scrum and Agile methodologies to deliver incremental and sustainable solutions and have practised extreme programming and mobbing to deliver higher-quality code.  
+
+I am a strong team player and like taking initiative and ownership of the work that I do.  
+I'm an advocate for test driven development. Linux and open-source technologies are a strong passion of mine.
 HERE
         :date => ''
-
       },
       # ======= EXPERIENCE
       {
         :type => 'experience',
         :title => 'Software Engineer,<br/>The Hut Group',
         :date => 'August 2017 - Present',
-        :body => <<-HERE,
-        Worked on the in-house warehouse management system as part of the Internal Movements Team. Delivered features in <strong>Agile</strong> environment. Also wrote a library for testing and automation to accelerate the development process, please ask me about it!
+        :body => markdown.render(<<-HERE),
+Worked on the in-house warehouse management system as part of the Internal Movements Team. 
+Delivered features in *Agile* environment. 
+Also wrote a library for testing and automation to accelerate the development process.
 HERE
       },
       {
         :type => 'experience',
         :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
-        :body => <<-HERE,
-        Worked on high-performing, Cyber Security projects. Created automated tests using BASH, Perl and in-house tools. Developed scripts to automate product integration and deployment as part of a large, multi-national team.
+        :body => markdown.render(<<-HERE),
+Worked on high-performing, Cyber Security projects. 
+Created automated tests using BASH, Perl and in-house tools. 
+Developed scripts to automate product integration and deployment as part of a large, multi-national team.
 HERE
       },
       {
