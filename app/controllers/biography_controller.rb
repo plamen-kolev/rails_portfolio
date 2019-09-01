@@ -2,8 +2,6 @@ class BiographyController < ApplicationController
   def index
 
     @skills = Skill.all
-    expires_in 3.days, :public => true
-    fresh_when(@skills)
     
     @about
     @work_experience = []

@@ -13,7 +13,6 @@
  
  *= require_self
  */
-@import "bootstrap-sprockets";
 @import "bootstrap";
 
 $color-a: #252525;
@@ -215,6 +214,7 @@ tr{
 
 .main_menu > li > a{
     padding: 16px 26px 16px 26px;
+    color: #777;
 }
 
 .overflow_hidden{
@@ -232,10 +232,6 @@ h1{
 
 .capital{
     text-transform: uppercase;
-}
-
-.main_menu{
-    margin-top: 55px;
 }
 
 .thumbnail{
@@ -576,7 +572,7 @@ h3{
 }
 
 .main_navigator li{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: $menu_font;
     margin-left: 30px;
 }
@@ -833,6 +829,13 @@ h3{
     border:none;
 }
 
+.landing_icon{
+    font-size:3.5em;
+    margin-top:32px;
+    color: #2c719a;
+}
+
+
 @media (max-width: 960px){
     .main_menu>li>a{
         font-size:0.8em;
@@ -856,12 +859,6 @@ h3{
         float:left;
         text-align: left;
     }
-}
-
-.landing_icon{
-    font-size:3.5em;
-    margin-top:32px;
-    color: #2c719a;
 }
 
 @media (max-width: 765px) {
