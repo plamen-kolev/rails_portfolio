@@ -21,10 +21,7 @@ gem 'fastimage', '~> 2.0', '>= 2.0.1'
 gem 'carrierwave', '~> 1.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'sqlite3', '~> 1.3', '< 1.4'
-<<<<<<< HEAD
-=======
 gem 'redcarpet', '~> 3.5'
->>>>>>> added new about us description and support for markdown
 gem 'unicorn'
 gem 'listen', '~> 3.0.5'
 gem 'devise', '~> 4.2'
@@ -61,12 +58,6 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-<<<<<<< HEAD
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.3', '< 1.4'
-
-=======
->>>>>>> added new about us description and support for markdown
 end
 
 group :development do

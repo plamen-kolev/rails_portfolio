@@ -13,6 +13,8 @@ namespace :faker do
 HEREDOC
     a.body = markdown.render(File.read("#{Rails.root}/articles/machine_learning.md"))
     a.tags = 'Neural networks, Genetic Programming, MLP, Machine Learning, epochx, classification, sigmoidal'
+    a.created_at = "2018-07-01 08:10:53.926767"
+    a.updated_at = "2018-07-01 08:10:53.926767"
     a.save
 
     # now to generate artworks
@@ -29,28 +31,36 @@ HEREDOC
 
     data = [ { :type => 'about', :title => '', :body =>
 markdown.render(<<-HERE), 
-My name is Plamen Kolev and I specialize in web
-application development, system automation and deployment. I have over 3 years
-of experience working in world leading companies as a software engineer.  
-I have worked with established technologies such as Enterprise Java, Perl, Ruby Bash
-and Linux. I have also worked with new and emerging technologies such as Docker,
-Hazelcast; in-memory data grid, Amazon Web Services, React and Node JS. In my
-professional experience, I have used established software patterns and
-methodologies to deliver high quality, reliable, and robust software.
+My name is Plamen Kolev and I specialize in web application development, system automation and and software deployment. I have over 3 years of experience working in world leading companies as a software engineer.  
 
-I believe in Scrum and Agile methodologies to deliver incremental and sustainable solutions and have practised extreme programming and mobbing to deliver higher-quality code.  
+I am a strong team player and like taking initiative and ownership of the work that I do. I have experience with established technologies such as Enterprise *Java*, *Perl*, *Ruby* *Bash*, *Linux* and *MSQL* databases.  
+I have also worked with new and emerging technologies such as *Docker*, *Hazelcast*; in-memory data grid, *AWS*: Amazon Web Services, React and *NodeJS*. In my
+professional experience, I have used established software engineering patterns to deliver high quality, reliable, and robust software.
 
-I am a strong team player and like taking initiative and ownership of the work that I do.  
-I'm an advocate for test driven development. Linux and open-source technologies are a strong passion of mine.
+I use *Scrum* and *Agile* methodologies to deliver incremental and sustainable solutions and have practised extreme programming, pairing and mobbing to create higher-quality, mature software. I also have experience in *TDD*: Test Driven Development.  
+
+*Linux* is an important part of my developer toolbox and I can use the build in tools to efficiently automate and speed up developer tasks. I have strong grasp of advanced *Git* version control features and can utilise them to effectivly collaborate in a team.
 HERE
         :date => ''
       },
       # ======= EXPERIENCE
+            {
+        :type => 'experience',
+        :title => 'Software Engineer, <br/>BookingGo',
+
+        :date => 'November 2018 - Present',
+        :body => markdown.render(<<-HERE),
+Worked on the landing pages team in a large scale replatforming project that managed to increase the scalability and performance of the solution. 
+As part of the team, I was responsible for putting all airport pages (over 10 000) onto the new platform, enabling 1 000 customers per day to have an improved experience.
+I have also worked on improving the platform's realiability, alerting and monitoring by implementing *Prometheus* metrics and *Jaeger* Tracing into our solution.
+My work experience on the team has given me insight into writing full stack software solutions by using *NodeJs* javascript framework and React.
+HERE
+      },
       {
         :type => 'experience',
         :title => 'Software Engineer, <br/>The Hut Group',
 
-        :date => 'August 2017 - Present',
+        :date => 'August 2017 - October 2018',
         :body => markdown.render(<<-HERE),
 Worked on the in-house warehouse management system as part of the Internal Movements Team. 
 Delivered features in *Agile* environment. 
