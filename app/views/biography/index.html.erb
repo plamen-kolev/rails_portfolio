@@ -38,43 +38,49 @@
 
 <div class="col-md-12 clearfix top_margin nopadding">
     <div class="wrapper experience">
-        <div class="experience_tr col-md-12 nopadding">
-            <div class="col-md-6 experience_left">
-                <h1>About</h1>
-                <div class="section">
+        <div class="experience_tr nopadding">
+                <div class="section gridded">
+                    <h1>About</h1>
                     <p><%= @about.body.html_safe %></p>
                 </div>
                 <%= @work %>
-                <h1>Work Experience</h1>
+                
+                <div class="gridded">
+                    <h1>Work Experience</h1>    
+                </div>
+
                 <% @work_experience.each do |w| %>
-                    <div class="section">
+                    <div class="section gridded">
                         <h2><%= w.title.html_safe %></h2>
                         <h3><%= w.date %></h3>
                         <p><%= w.body.html_safe %></p>
                     </div>    
-                <% end %>
+                <% end %>    
+                
+                <div class="gridded">
+                    <h1>Education</h1>
+                </div>
 
-                <h1>Education</h1>
                 <% @education.each do |e| %>
-                    <div class="section">
+                    <div class="section gridded">
                         <h2><%= e.title.html_safe %></h2>
                         <h3><%= e.date %></h3>
                         <p><%= e.body.html_safe %></p>
                     </div>
                 <% end %>
+                
+                <div class="gridded">
+                    <h1>Projects</h1>
+                </div>
 
-            </div>
-
-            <div class="col-md-6 experience_right">
-                <h1>Projects</h1>
                 <% @projects.each do |p| %>
-                    <div class="section">
+                    <div class="section gridded">
                         <h2><%= p.title.html_safe %></h2>
                         <h3><%= p.date %></h3>
                         <p><%= p.body.html_safe %></p>
                     </div>
                 <% end %>
-            </div>
+            
         </div>
     </div>
 
