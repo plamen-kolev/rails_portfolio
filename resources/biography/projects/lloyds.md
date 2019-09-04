@@ -1,0 +1,1 @@
+Developed and designed a website with restful API that hooks to an Android application for the British bank Lloyds. The product was produced as part of a team project.

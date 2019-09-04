@@ -1,0 +1,4 @@
+Worked on the landing pages team in a large scale replatforming project that managed to increase the scalability and performance of the solution. 
+As part of the team, I was responsible for putting all airport pages (over 10 000) onto the new platform, enabling 1 000 customers per day to have an improved experience.
+I have also worked on improving the platform's realiability, alerting and monitoring by implementing *Prometheus* metrics and *Jaeger* Tracing into our solution.
+My work experience on the team has given me insight into writing full stack software solutions by using *NodeJs* javascript framework and React.

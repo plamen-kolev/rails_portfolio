@@ -1,5 +1,10 @@
 
-markdown = markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {})
+resources = 
+markdown = markdown = Redcarpet::Markdown.new(
+  Redcarpet::Render::HTML, 
+  extensions = {}
+)
+
 namespace :faker do
   desc "TODO"
   task init: :environment do
@@ -11,7 +16,7 @@ namespace :faker do
     a.title = <<-HEREDOC
       Data classification using Neural Networks and Genetic Programming
 HEREDOC
-    a.body = markdown.render(File.read("#{Rails.root}/articles/machine_learning.md"))
+    a.body = markdown.render(File.read("#{Rails.root}/resources/articles/machine_learning.md"))
     a.tags = 'Neural networks, Genetic Programming, MLP, Machine Learning, epochx, classification, sigmoidal'
     a.created_at = "2018-07-01 08:10:53.926767"
     a.updated_at = "2018-07-01 08:10:53.926767"
@@ -30,17 +35,7 @@ HEREDOC
     # generate cv content
 
     data = [ { :type => 'about', :title => '', :body =>
-markdown.render(<<-HERE), 
-My name is Plamen Kolev and I specialize in web application development, system automation and and software deployment. I have over 3 years of experience working in world leading companies as a software engineer.  
-
-I am a strong team player and like taking initiative and ownership of the work that I do. I have experience with established technologies such as Enterprise *Java*, *Perl*, *Ruby* *Bash*, *Linux* and *MSQL* databases.  
-I have also worked with new and emerging technologies such as *Docker*, *Hazelcast*; in-memory data grid, *AWS*: Amazon Web Services, React and *NodeJS*. In my
-professional experience, I have used established software engineering patterns to deliver high quality, reliable, and robust software.
-
-I use *Scrum* and *Agile* methodologies to deliver incremental and sustainable solutions and have practised extreme programming, pairing and mobbing to create higher-quality, mature software. I also have experience in *TDD*: Test Driven Development.  
-
-*Linux* is an important part of my developer toolbox and I can use the build in tools to efficiently automate and speed up developer tasks. I have strong grasp of advanced *Git* version control features and can utilise them to effectivly collaborate in a team.
-HERE
+markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
         :date => ''
       },
       # ======= EXPERIENCE
@@ -49,47 +44,27 @@ HERE
         :title => 'Software Engineer, <br/>BookingGo',
 
         :date => 'November 2018 - Present',
-        :body => markdown.render(<<-HERE),
-Worked on the landing pages team in a large scale replatforming project that managed to increase the scalability and performance of the solution. 
-As part of the team, I was responsible for putting all airport pages (over 10 000) onto the new platform, enabling 1 000 customers per day to have an improved experience.
-I have also worked on improving the platform's realiability, alerting and monitoring by implementing *Prometheus* metrics and *Jaeger* Tracing into our solution.
-My work experience on the team has given me insight into writing full stack software solutions by using *NodeJs* javascript framework and React.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/bookinggo.md")),
       },
       {
         :type => 'experience',
         :title => 'Software Engineer, <br/>The Hut Group',
 
         :date => 'August 2017 - October 2018',
-        :body => markdown.render(<<-HERE),
-My responsibilities at The Hut Group were to develop their propriatery Warehouse Management Platform that is responsible for shipping thousands of products each day from their warehouses.
-
-The stack that I worked in was Java 8 event-based *microservices* deployed on AWS cluster.
-
-The job was very challenging due to the warehouses operating at full capacity 24 hours each day. There I provided support as an on-call engineer, troubleshooting difficult problems during outages and live issues.
-
-Due to the complexity of the software, it was hard to simulate certain behaviours (shipment arriving in the warehouse, storage request for a product, etc.) and it was a manual process when testing. I identified that we can create an automation tool that can provide 'cookbooks' for a variety of scenarios. As a result, this helped us troubleshoot live issues as well as catch bugs in development stages by writing these simulations, which decreased our cycle time and improved the defect age.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/thg.md")),
       },
       {
         :type => 'experience',
         :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
-        :body => markdown.render(<<-HERE),
-Worked on high-performing, Cyber Security projects. 
-Created automated tests using BASH, Perl and in-house tools. 
-Developed scripts to automate product integration and deployment as part of a large, multi-national team.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/intel.md")),
       },
       # ===== EDUCATION
       {
         :type => 'education',
         :title => 'BSc. Computer Science, <br/>Newcastle University',
         :date => 'September 2013 - June 2017',
-        :body => markdown.render(<<-HERE),
-Achieved First Class Honours degree in Computer Science with Industrial Placement. 
-Studied software design & development. Relational Database technologies, Computer Architecture: Parallel computing and Biocomputing.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/newcastle-university.md")),
 
       },
       # =============== PROJECTS
@@ -97,52 +72,37 @@ HERE
         :type => 'project',
         :title => "Web Platform for Digital Deployment of Virtual Servers",
         :date => "November 2016 - June 2017",
-        :body => <<-HERE
-Created a platform for deployment, management and monitoring of virtual servers as part of BSC final year dissertation. Technologies used: Puppet, BASH shell, Virtualbox, Vagrant, Ruby, Ruby On Rails.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/dissertation.md")),
       },
       {
         :type => 'project',
         :title => 'Neven Body care',
         :date => '5 August - 28 August 2016',
-        :body => <<-HERE,
-Created a PHP website for the Neven brand as part of a case study for creating web platforms. The project aimed to create an interactive system for featuring natural care products.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/neven.md")),
       },
       {
         :type => 'project',
         :title => 'Secure Coding Presentation',
         :date => "5 May 2016",
-        :body => <<-HERE,
-Gave a presentation in Leicester College about different ways code can be exploited by a malicious user and ways to mitigate and avoid such cases.
-
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/secure-coding.md")),
       },
       {
         :type => 'project',
         :title => 'Lloyds Banking',
         :date => '31 October 2014',
-        :body => <<-HERE,
-Developed and designed a website with restful API that hooks to an Android application for the British bank Lloyds. The product was produced as part of a team project.
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/lloyds.md")),
       },
       {
         :type => 'project',
         :title => "HackNE Hackathon",
         :date => '31 October 2014',
-        :body => <<-HERE
-        Co-organized a hackathon in the North East, United Kingdom backed by Major League Hacking EU. Created the website for the event, PR and print design materials.
-
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/hackne.md")),
       },
       {
         :type => 'project',
         :title => 'PAConsulting',
         :date => '12 February 2014',
-        :body => <<-HERE,
-        Developed an environmental friendly hardware & software solution with the Raspberry Pi that involves predictive light automation and control.
-
-HERE
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/paconsulting.md")),
       }
 
     ]

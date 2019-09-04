@@ -1,0 +1,1 @@
+Created a platform for deployment, management and monitoring of virtual servers as part of BSC final year dissertation. Technologies used: Puppet, BASH shell, Virtualbox, Vagrant, Ruby, Ruby On Rails.
