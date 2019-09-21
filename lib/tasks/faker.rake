@@ -88,7 +88,7 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
       },
       {
         :type => 'project',
-        :title => 'Lloyds Banking',
+        :title => 'SpendWell, <br/>Lloyds Banking Application',
         :date => '31 October 2014',
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/lloyds.md")),
       },
@@ -100,7 +100,7 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
       },
       {
         :type => 'project',
-        :title => 'PAConsulting',
+        :title => 'Light automation solution, <br/>PAConsulting',
         :date => '12 February 2014',
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/paconsulting.md")),
       }
