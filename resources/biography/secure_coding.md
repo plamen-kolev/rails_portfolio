@@ -1,1 +1,0 @@
-Gave a presentation in Leicester College about different ways code can be exploited by a malicious user and ways to mitigate and avoid such cases.

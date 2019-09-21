@@ -44,27 +44,27 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
         :title => 'Software Engineer, <br/>BookingGo',
 
         :date => 'November 2018 - Present',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/bookinggo.md")),
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/bookinggo.md")),
       },
       {
         :type => 'experience',
         :title => 'Software Engineer, <br/>The Hut Group',
 
         :date => 'August 2017 - October 2018',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/thg.md")),
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/thg.md")),
       },
       {
         :type => 'experience',
         :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/intel.md")),
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/intel.md")),
       },
       # ===== EDUCATION
       {
         :type => 'education',
         :title => 'BSc. Computer Science, <br/>Newcastle University',
         :date => 'September 2013 - June 2017',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/newcastle-university.md")),
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/education/newcastle-university.md")),
 
       },
       # =============== PROJECTS
@@ -76,7 +76,7 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
       },
       {
         :type => 'project',
-        :title => 'Neven Body care',
+        :title => 'Neven Body Care',
         :date => '5 August - 28 August 2016',
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/neven.md")),
       },

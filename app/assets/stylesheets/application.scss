@@ -174,20 +174,6 @@ tr{
     font-family: $default-font !important;
 }
 
-.experience_tr {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    height:2500px;
-}
-
-.gridded { 
-    width: 50%;
-    padding-right:20px;
-    padding-left:20px;
-}
-
 .skills > p{
     margin:0px;
 }
@@ -361,7 +347,6 @@ h3{
 }
 
 .wrapper{
-    max-width:1600px;
     margin:auto;
     padding:0px 5px;
 }

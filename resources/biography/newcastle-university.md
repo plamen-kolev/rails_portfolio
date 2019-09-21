@@ -1,2 +1,0 @@
-Achieved First Class Honours degree in Computer Science with Industrial Placement. 
-Studied software design & development. Relational Database technologies, Computer Architecture: Parallel computing and Biocomputing.

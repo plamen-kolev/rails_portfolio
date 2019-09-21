@@ -1,1 +1,0 @@
-Created a PHP website for the Neven brand as part of a case study for creating web platforms. The project aimed to create an interactive system for featuring natural care products.
