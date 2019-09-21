@@ -6,7 +6,6 @@ git_source(:github) do |repo_name|
 end
 
 # custom gems
-gem 'rails_admin', '~> 1.1'
 gem 'addressable', '~> 2.5'
 gem 'rake', '~> 12.0'
 gem 'execjs', '~> 2.7'
@@ -15,8 +14,6 @@ gem 'public_suffix', '~> 2.0', '>= 2.0.5'
 gem 'mini_portile2', '~> 2.1'
 gem 'autoprefixer-rails', '~> 6.7', '>= 6.7.2'
 gem 'nokogiri', '~> 1.7', '>= 1.7.0.1'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-gem "lazyload-rails"
 gem 'fastimage', '~> 2.0', '>= 2.0.1'
 gem 'carrierwave', '~> 1.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
@@ -41,8 +38,6 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

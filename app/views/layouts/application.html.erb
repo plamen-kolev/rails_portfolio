@@ -9,18 +9,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <%= favicon_link_tag 'favicon.png' %>
     <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "bootstrap.min.css" %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= yield :links %>
   </head>
 
   <body>
     <%= render 'layouts/header' %>
-    <div class="col-md-12 nopadding nomargin main_content" role="main">
+    <div class="col-md-12 col-sm-12 col-xs-12 nopadding nomargin main_content" role="main">
       <%= yield %>
     </div>
-    <div role="contentinfo">
+    <div role="contentinfo" class="col-md-12 col-sm-12 col-xs-12 navbar-fixed-bottom footer nopadding nomargin">  
       <%= render 'layouts/footer' %>    
-    </div>
   </body>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>

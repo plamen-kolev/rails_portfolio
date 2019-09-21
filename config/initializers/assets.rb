@@ -2,7 +2,7 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
-Rails.application.config.assets.precompile += %w( styles/github-gist.min.css styles/asciidoctor.css photoswipe/photoswipe.min.js photoswipe/photoswipe-ui-default.min.js photoswipe/photoswipe.css photoswipe/default-skin/default-skin.css print.css)
+Rails.application.config.assets.precompile += %w( styles/github-gist.min.css styles/asciidoctor.css photoswipe/photoswipe.min.js photoswipe/photoswipe-ui-default.min.js photoswipe/photoswipe.css photoswipe/default-skin/default-skin.css print.css bootstrap.min.scss)
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

@@ -13,14 +13,17 @@
  
  *= require_self
  */
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
-.navbar-default .navbar-nav > li > a {
+ 
+.navbar-container {
+     border-bottom:1px solid #e7e7e7;
+ }
+
+.menu_item, .menu_item a {
     color: black;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.menu_item:hover, .menu_item:focus, .menu_item a {
     color:black;
 }
 
@@ -201,7 +204,7 @@ tr{
 }
 
 .top_margin{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .main_menu > li > a:hover {
@@ -232,7 +235,8 @@ h1{
 }
 
 .main_menu{
-    margin-top: 55px;
+    display:inline-block;
+    margin-top:66px;
 }
 
 .thumbnail{
@@ -557,7 +561,6 @@ h3{
 
 .navbar-default{
     background:white;
-    border-color:white;
 }
 
 .article_wrapper pre{
@@ -568,14 +571,11 @@ h3{
     text-align:left;
 }
 
-.main_navigator{
-    border-bottom: 1px solid #ebebeb;
-}
-
-.main_navigator li{
+.menu_item{
     font-size: 1.5em;
     font-family: $menu_font;
     margin-left: 30px;
+    display: inline-block
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -589,7 +589,6 @@ h3{
     width: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
-    position: relative;
     z-index: 1;
     transition: background-color 0.5s ease;
 }
@@ -601,6 +600,7 @@ h3{
 .menu_circle img{
     text-align: center;
     margin:auto;
+    padding-left: 15px;
     margin-top: 25px;
 }
 
@@ -831,23 +831,6 @@ h3{
 }
 
 @media (max-width: 960px){
-    .main_menu>li>a{
-        font-size:0.8em;
-        padding: 10px 10px;
-        margin:10px;
-        margin-top:2px;
-    }
-
-    .main_menu>li>a:hover{
-        padding: 12px;
-        margin-top: -2px;
-        margin-right: 6px;
-        padding-left: 8px;
-    }
-
-    .main_navigator li{
-        margin-left: 14px;
-    }
 
     #mobile_footer_right{
         float:left;
@@ -863,22 +846,21 @@ h3{
 
 @media (max-width: 765px) {
 
-    .main_menu>li>a:hover{
-        padding: 12px;
-        margin-top: 2px;
-        margin-bottom: 6px;
-        margin-right: 6px;
-        padding-left: 8px;
-        border:none;
+    .main_menu {
+        margin-top:50px;
+    }
+
+    .menu_item{
+        margin:0px;
+        // display: block;
+    }
+
+    .main_menu > li > a {
+        padding:0px;
     }
 
     .landing_caption{
         line-height: 29px;
-    }
-
-    .logo_menu{
-        margin-left:auto;
-        margin-right:auto;
     }
 
     .outer_intro{
@@ -887,21 +869,6 @@ h3{
 
     .landing_caption{
         margin-top:-5px;
-    }
-
-    .main_navigator li {
-        font-size: 1.3em;
-        font-family: "Droid Sans", sans-serif;
-        margin-left: 35px;
-        border-bottom: 1px solid #d9d7d7;
-    }
-
-    .main_menu{
-        margin:0px 0px 10px 0px;
-        float: right;
-        text-align: right;
-        /* border: solid 1px; */
-        color: black;
     }
     
     #responsive_landing_hack{
