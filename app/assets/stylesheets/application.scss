@@ -14,19 +14,6 @@
  *= require_self
  */
 
- 
-.navbar-container {
-     border-bottom:1px solid #e7e7e7;
- }
-
-.menu_item, .menu_item a {
-    color: black;
-}
-
-.menu_item:hover, .menu_item:focus, .menu_item a {
-    color:black;
-}
-
 $color-a: #252525;
 $color-b: #d6c4da;
 $color-c: #af6e8c;
@@ -58,6 +45,26 @@ code{
 em {
     text-decoration: underline;
      text-decoration-color: #4694cc;
+}
+
+.navbar-container {
+    border-bottom:1px solid #e7e7e7;
+}
+
+.menu_item, .menu_item a {
+   color: black;
+}
+
+.menu_item:hover, .menu_item:focus, .menu_item a {
+   color:black;
+}
+
+.divider {
+    color: #216ea2;
+}
+
+.main_menu > li > a:hover {
+    border-bottom: 2px solid #216ea2;
 }
 
 .error{
@@ -207,16 +214,6 @@ tr{
     margin-top: 20px;
 }
 
-.main_menu > li > a:hover {
-    border: 2px solid black;
-    padding: 14px 24px 14px 24px;
-    border-radius: 1px;
-}
-
-.main_menu > li > a{
-    padding: 16px 26px 16px 26px;
-}
-
 .overflow_hidden{
     overflow: hidden;
 }
@@ -236,7 +233,7 @@ h1{
 
 .main_menu{
     display:inline-block;
-    margin-top:66px;
+    margin-top:47px;
 }
 
 .thumbnail{
@@ -574,7 +571,6 @@ h3{
 .menu_item{
     font-size: 1.5em;
     font-family: $menu_font;
-    margin-left: 30px;
     display: inline-block
 }
 
@@ -830,8 +826,17 @@ h3{
     border:none;
 }
 
-@media (max-width: 960px){
+@media (min-width: 765px) {
+    .main_menu > li{
+        padding: 16px 26px 16px 26px;
+    }
 
+    .main_menu .divider {
+        display:none;
+    }
+}
+
+@media (max-width: 960px){
     #mobile_footer_right{
         float:left;
         text-align: left;
@@ -845,18 +850,13 @@ h3{
 }
 
 @media (max-width: 765px) {
-
-    .main_menu {
-        margin-top:50px;
-    }
-
     .menu_item{
         margin:0px;
-        // display: block;
+        padding:16px 0px 16px 0px;
     }
 
-    .main_menu > li > a {
-        padding:0px;
+    .menu_item a {
+        margin:0px;
     }
 
     .landing_caption{
@@ -878,5 +878,20 @@ h3{
 
     .landing_caption{
         font-size:1.4em;
+    }
+}
+
+@media (max-width: 580px){
+    .main_menu {
+        margin-top:40px;
+    }
+
+    .menu_item {
+        padding: 0px;
+        display:block;
+    }
+
+    .main_menu .divider {
+        display: none;
     }
 }
