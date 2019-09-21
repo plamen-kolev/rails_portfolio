@@ -1,4 +1,4 @@
-I used my experience at Intel to created a platform for secure deployment, management and monitoring of virtual servers as part of BSC final year dissertation. 
+I used my experience at Intel to create a platform for secure deployment, management and monitoring of virtual servers as part of BSC final year dissertation. 
 
 The platform aimed to provide the same functionality as *AWS*'s *EC2*.
 Technologies used: *Puppet*, *BASH* shell, *Virtualbox*, *Vagrant*, *Ruby* and *Ruby On Rails*.  
