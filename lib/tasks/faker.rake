@@ -94,13 +94,13 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
       },
       {
         :type => 'project',
-        :title => "HackNE Hackathon",
+        :title => "HackNE Hackathon, <br/> Newcastle University",
         :date => '31 October 2014',
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/hackne.md")),
       },
       {
         :type => 'project',
-        :title => 'Light automation solution, <br/>PAConsulting',
+        :title => 'Lights Automation, <br/>PAConsulting',
         :date => '12 February 2014',
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/paconsulting.md")),
       }
