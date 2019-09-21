@@ -16,6 +16,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:black;
+}
+
 $color-a: #252525;
 $color-b: #d6c4da;
 $color-c: #af6e8c;
@@ -36,7 +44,8 @@ $h3-font-size:1,8em;
 $article-title-color: #216ea2;
 
 html,body{
-    height: 100%
+    height: 100%;
+    background: white;
 }
 
 code{
@@ -119,7 +128,8 @@ tr{
 
 .special_button{
     padding: 16px 26px 16px 26px;
-    color: #777;
+    color: #111;
+    background: white;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -167,6 +177,7 @@ tr{
 
 .section{
     margin:0px 0px 50px 0px;
+    background:white;
 }
 
 .experience_tr p{

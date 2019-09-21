@@ -60,7 +60,7 @@
         -webkit-print-color-adjust: exact;
     }
 
-    #logo_menu{
+    .logo_menu{
         width: 150px;
         height: 150px;
     }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Plamen Kolev's Blog</title>
     <%= yield :links_before %>
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"/>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta name="viewport" content="initial-scale=1" maximum-scale="4"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <%= favicon_link_tag 'favicon.png' %>
     <%= csrf_meta_tags %>
@@ -15,10 +15,12 @@
 
   <body>
     <%= render 'layouts/header' %>
-    <div class="col-md-12 nopadding nomargin main_content">
+    <div class="col-md-12 nopadding nomargin main_content" role="main">
       <%= yield %>
     </div>
-    <%= render 'layouts/footer' %>
+    <div role="contentinfo">
+      <%= render 'layouts/footer' %>    
+    </div>
   </body>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
