@@ -198,7 +198,6 @@ HERE
     static_dir = 'plamen-kolev.github.io'
     Dir.mkdir(static_dir) unless File.exists?(static_dir)
     Dir.mkdir("#{static_dir}/articles") unless File.exists?("#{static_dir}/articles")
-
     File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(index_page) }
     File.open("plamen-kolev.github.io/articles.html", "w") { |file| file.write(articles_all) }
     File.open("plamen-kolev.github.io/creative.html", "w") { |file| file.write(creative) }
