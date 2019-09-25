@@ -70,6 +70,12 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
       # =============== PROJECTS
       {
         :type => 'project',
+        :title => "Songs of the World",
+        :date => "August 2019 - September 2019",
+        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/songs.md")),
+      },
+      {
+        :type => 'project',
         :title => "Web Platform for Digital Deployment of Virtual Servers",
         :date => "November 2016 - June 2017",
         :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/dissertation.md")),
