@@ -15,8 +15,8 @@
  */
 
 $color-a: #252525;
-$color-b: #d6c4da;
-$color-c: #af6e8c;
+$color-b: #e6f3ff;
+$color-c: #4694cc;
 $color-d: white;
 $tag_color: black;
 $select-color: black;
@@ -71,6 +71,11 @@ h2{
 
 h3{
     font-size: $h3-font-size;
+}
+
+li::before, li::marker {
+    color: #8c8c8c;
+    font-size:0.7em;
 }
 
 
@@ -192,23 +197,27 @@ h3{
     min-width: 500px;
 }
 
+.experience ul {
+    padding:0px 0px 0px 10px;
+}
+
 .experience td{
     vertical-align: top;
     padding:0px 10px 0px 10px;
 }
 
-.experience h1{
+.experience h2{
     font-family: $header-alt-font !important;
     text-transform: uppercase;
     margin: 15px 0px 15px 0px;
 }
 
-.experience h2 {
+.experience h3 {
     margin-top: 20px;
     font-family: $default-font !important;
 }
 
-.experience h3, .clarification{
+.experience h4, .clarification{
     font-weight: bold;
     font-family: $default-font !important;
     font-size: $default-font-size;
