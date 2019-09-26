@@ -1,4 +1,5 @@
-* Worked on the Landing Pages team as a *Full-Stack developer* in a large scale replatforming project that managed to increase the scalability, performance, accessibility and development speed of the platform.
+Worked on the Landing Pages team as a *Full-Stack developer* in a large scale replatforming project that managed to increase the scalability, performance, accessibility and development speed of the platform.
 The work involved breaking a large monolithic *Java* application into small data-driver dockerized *microservices*. The technology used was *Java SpringBoot* for the data layer, *NodeJS* and *React* for interacting with the user. 
-* As part of the team, I was responsible for putting over a million of landing pages onto the new platform, enabling over 10 000 customers per day to have an improved experience.  
-* Had the responsibility of improving the platform's reliability, alerting and monitoring by implementing *Prometheus* metrics and *Jaeger* Tracing into our solution. This enabled us to create dashboards that alerted us when we had live issues, slow network traffic or during troubleshooting live issues.
+
+* As part of the team, I was responsible for putting over a million landing pages onto the new platform, enabling over 10 000 customers per day to have an improved experience.  
+* Had the responsibility of improving the platform's reliability, alerting and monitoring by implementing *Prometheus* metrics and *Jaeger* Tracing into our solution. These metrics enabled us to create monitoring dashboards and alerted us when we had live issues, slow network traffic or outages.

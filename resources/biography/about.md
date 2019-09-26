@@ -2,7 +2,7 @@
 * Strong team player who likes taking initiative and ownership of my work. In my professional experience, I have used established software engineering patterns to deliver high quality, reliable, and robust software.
 * Experienced with delivering software using *Scrum* and *Agile* methodologies such as pairing and mobbing to create high-quality, mature software. I have experience doing *Test-Driven Development*. 
 
-Proffessinal skills:
+Professional skills:
 
 {:.col-sm-6}
 * *Enterprise Java* 
