@@ -1,10 +1,3 @@
-
-resources = 
-markdown = markdown = Redcarpet::Markdown.new(
-  Redcarpet::Render::HTML, 
-  extensions = {}
-)
-
 namespace :faker do
   desc "TODO"
   task init: :environment do
@@ -16,7 +9,7 @@ namespace :faker do
     a.title = <<-HEREDOC
       Data classification using Neural Networks and Genetic Programming
 HEREDOC
-    a.body = markdown.render(File.read("#{Rails.root}/resources/articles/machine_learning.md"))
+    a.body = Kramdown::Document.new(File.read("#{Rails.root}/resources/articles/machine_learning.md")).to_html
     a.tags = 'Neural networks, Genetic Programming, MLP, Machine Learning, epochx, classification, sigmoidal'
     a.created_at = "2018-07-01 08:10:53.926767"
     a.updated_at = "2018-07-01 08:10:53.926767"
@@ -35,7 +28,7 @@ HEREDOC
     # generate cv content
 
     data = [ { :type => 'about', :title => '', :body =>
-markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
+      Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/about.md")).to_html,
         :date => ''
       },
       # ======= EXPERIENCE
@@ -44,27 +37,27 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
         :title => 'Software Engineer, <br/>BookingGo',
 
         :date => 'November 2018 - Present',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/bookinggo.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/bookinggo.md")).to_html,
       },
       {
         :type => 'experience',
         :title => 'Software Engineer, <br/>The Hut Group',
 
         :date => 'August 2017 - October 2018',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/thg.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/thg.md")).to_html,
       },
       {
         :type => 'experience',
         :title => 'Software Engineer Intern,<br/> Intel Corporation',
         :date => 'August 2015 - September 2016',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/work/intel.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/intel.md")).to_html,
       },
       # ===== EDUCATION
       {
         :type => 'education',
         :title => 'BSc. Computer Science, <br/>Newcastle University',
         :date => 'September 2013 - June 2017',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/education/newcastle-university.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/education/newcastle-university.md")).to_html,
 
       },
       # =============== PROJECTS
@@ -72,43 +65,43 @@ markdown.render(File.read("#{Rails.root}/resources/biography/about.md")),
         :type => 'project',
         :title => "Songs of the World",
         :date => "August 2019 - September 2019",
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/songs.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/songs.md")).to_html,
       },
       {
         :type => 'project',
         :title => "Web Platform for Digital Deployment of Virtual Servers",
         :date => "November 2016 - June 2017",
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/dissertation.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/dissertation.md")).to_html,
       },
       {
         :type => 'project',
         :title => 'Neven Body Care',
         :date => '5 August - 28 August 2016',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/neven.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/neven.md")).to_html,
       },
       {
         :type => 'project',
         :title => 'Secure Coding Presentation',
         :date => "5 May 2016",
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/secure-coding.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/secure-coding.md")).to_html,
       },
       {
         :type => 'project',
         :title => 'SpendWell, <br/>Lloyds Banking Application',
         :date => '31 October 2014',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/lloyds.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/lloyds.md")).to_html,
       },
       {
         :type => 'project',
         :title => "HackNE Hackathon, <br/> Newcastle University",
         :date => '31 October 2014',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/hackne.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/hackne.md")).to_html,
       },
       {
         :type => 'project',
         :title => 'Lights Automation, <br/>PAConsulting',
         :date => '12 February 2014',
-        :body => markdown.render(File.read("#{Rails.root}/resources/biography/projects/paconsulting.md")),
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/projects/paconsulting.md")).to_html,
       }
 
     ]
