@@ -33,18 +33,55 @@ $h2-font-size: 2em;
 $h3-font-size:1,8em;
 $article-title-color: #216ea2;
 
-html,body{
+html,body {
     height: 100%;
     background: white;
 }
 
-code{
+code {
     color: #216ea2;
 }
 
 em {
     text-decoration: underline;
      text-decoration-color: #4694cc;
+}
+
+tr {
+    background-color: white !important;
+}
+
+hr{
+    border-top: 1px solid #ebebeb;
+}
+
+h1 {
+    font-family: $header-font, Sans;
+    font-size:$h1-font-size;
+}
+
+p, li {
+    font-family: $default-font;
+    font-size:$default-font-size;
+}
+
+h2{
+    font-size: $h2-font-size;
+}
+
+h3{
+    font-size: $h3-font-size;
+}
+
+
+.cv_header {
+    background-color: #e6f3ff;
+    padding: 40px 10px 40px 10px;
+    margin:0px;
+}
+
+.cv_header p, .cv_header h1 {
+    margin:0px;
 }
 
 .navbar-container {
@@ -79,10 +116,6 @@ em {
 
 .inline-block{
     display: inline-block;
-}
-
-tr{
-    background-color: white !important;
 }
 
 .main_content {
@@ -170,7 +203,7 @@ tr{
     margin: 15px 0px 15px 0px;
 }
 
-.experience h2{
+.experience h2 {
     margin-top: 20px;
     font-family: $default-font !important;
 }
@@ -217,14 +250,6 @@ tr{
 
 .overflow_hidden{
     overflow: hidden;
-}
-
-hr{
-    border-top: 1px solid #ebebeb;
-}
-
-h1{
-    font-family: $header-font, Sans;
 }
 
 
@@ -316,22 +341,6 @@ h2,h3{
     color:#FF0047;
 }
 
-p{
-    font-family: $default-font;
-    font-size:$default-font-size;
-}
-
-h1{
-    font-size:$h1-font-size;
-}
-
-h2{
-    font-size: $h2-font-size;
-}
-
-h3{
-    font-size: $h3-font-size;
-}
 
 #titlebar{
     margin-top:30px;
