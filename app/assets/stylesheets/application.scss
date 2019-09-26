@@ -28,9 +28,9 @@ $header-alt-font: 'Montserrat', serif;
 $default-font: 'Nunito', sans-serif;
 $menu_font: 'Montserrat', serif;
 $default-font-size: 1.5em;
-$h1-font-size: 2.2em;
-$h2-font-size: 2em;
-$h3-font-size:1,8em;
+$h1-font-size: 2.8em;
+$h2-font-size: 2.4em;
+$h3-font-size:1.8em;
 $article-title-color: #216ea2;
 
 html,body {
@@ -214,6 +214,7 @@ li::before, li::marker {
 
 .experience h3 {
     margin-top: 20px;
+    font-size: $h3-font-size;
     font-family: $default-font !important;
 }
 

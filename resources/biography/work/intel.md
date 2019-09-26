@@ -1,6 +1,5 @@
-worked on high-performing, Cyber Security project. 
+* Worked on high-performing, Cyber Security project. 
 My responsibilities were to extend the in-house automation framework, which is responsible for ensuring that the Data Loss Prevention and Email threat detection engine cannot be exploited by attackers.
-
-I was responsible for extending the framework, which was written in *Perl*, as well as creating new automation test suits. I would also troubleshoot software bugs by using the *BASH* scripting language and an array of built-in *Linux* command-line tools in a *virtualized* environment.
-
-At Intel, I was given the task to write a UI automation framework using *Perl* and *Selenium Web Driver*. After the solution was delivered, I created training sessions to teach the testing engineers about the tool.
+* Created new automation test suits as well as managed existing test scenarios using the *Perl* programming language. 
+* Used *BASH* scripting language and built-in *Linux* command-line tools to find and troubleshoot software bugs in the product.
+* Delivered a UI automation framework using *Perl* and *Selenium Web Driver*. The tool was used by the testing engineers to create test suits, ensuring we do not introduce visual or functional regression for our customer-facing components. After the solution was delivered, I created training sessions to teach the testing team about the tool and how to utilise it.
