@@ -55,7 +55,7 @@ HEREDOC
       # ===== EDUCATION
       {
         :type => 'education',
-        :title => 'BSc. Computer Science, <br/>Newcastle University',
+        :title => 'BSc.(Honours) Computer Science, <br/>Newcastle University',
         :date => 'September 2013 - June 2017',
         :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/education/newcastle-university.md")).to_html,
 
