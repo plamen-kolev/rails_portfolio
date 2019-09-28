@@ -1,3 +1,4 @@
+ENV['RAILS_ENV'] = 'production'
 namespace :faker do
   desc "TODO"
   task init: :environment do
@@ -212,8 +213,8 @@ HERE
     end
 
 
-    FileUtils.copy_entry "#{Rails.public_path}/assets", "#{Rails.root}/plamen-kolev.github.io/assets/"
-    FileUtils.copy_entry "#{Rails.public_path}/media", "#{Rails.root}/plamen-kolev.github.io/media"
+    FileUtils.copy_entry("#{Rails.public_path}/assets", "#{Rails.root}/plamen-kolev.github.io/assets/", force = true)
+    FileUtils.copy_entry("#{Rails.public_path}/media", "#{Rails.root}/plamen-kolev.github.io/media", force = true)
   end
 
 
