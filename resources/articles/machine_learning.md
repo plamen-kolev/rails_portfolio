@@ -5,8 +5,7 @@ Plamen Kolev
 ## Revised justification
 
 ![Image taken from
-http://www.ra.cs.uni-tuebingen.de/software/JCell/images/docbook/gp.png](gpimages/gp.png)
-aa
+http://www.ra.cs.uni-tuebingen.de/software/JCell/images/docbook/gp.png](/media/gpimages/gp.png)
 As the first biologically inspired machine learning algorithm, I decided
 to use Genetic Programming. Genetic Programming is suitable for
 classifying multiple classes. An Oxford journal about classifying
@@ -164,7 +163,7 @@ during my experiments.
 
 GP algorithm with different population size
 
-![gp population](gpimages/gp_population.png)
+![gp population](/media/gpimages/gp_population.png)
 
 | Time   | Efficiency in %    | Generation number |
 | ------ | ------------------ | ----------------- |
@@ -181,7 +180,7 @@ GP algorithm with different population size
 
 Table showing runs with different generations (stopping criteria)
 
-![gp generations](gpimages/gp_generations.png)
+![gp generations](/media/gpimages/gp_generations.png)
 
 I also experimented with different crossover probability, number of
 elite chromosomes and mutation but they did not improve or lower the
@@ -227,7 +226,7 @@ Mutation probability
 ## Revised Justification
 
 ![Taken from
-https://www.codeproject.com/KB/dotnet/predictor/network.jpg](neuralimages/network.jpg)
+https://www.codeproject.com/KB/dotnet/predictor/network.jpg](/media/neuralimages/network.jpg)
 
 As mentioned in the coursework proposal, I chose Neural network as the
 method for classification for several reasons: It is suitable for
@@ -452,7 +451,7 @@ iterations. In my case, it peaked at about 1500-2000 iterations, at
 which point it did not have a significant impact on the efficiency but
 it impacted the running time.
 
-![iterations](neuralimages/iterations.png)
+![iterations](/media/neuralimages/iterations.png)
 
 | **Time** | **Accuracy in %** | **Hidden nodes** |
 | -------- | ----------------- | ---------------- |
@@ -470,7 +469,7 @@ it impacted the running time.
 
 Impact on different hidden nodes
 
-![hidden nodes](neuralimages/hidden_nodes.png)
+![hidden nodes](/media/neuralimages/hidden_nodes.png)
 
 In this case, increasing the amount of hidden nodes had a significant
 impact on the accuracy, with it peaking at about 17-24 nodes. I found
@@ -481,9 +480,9 @@ To keep this report short, I will include a graph of learning rate and
 max error results without including the tables, but the data can be
 found and viewed under neuralstats.csv
 
-![learningrate](neuralimages/learningrate.png)
+![learningrate](/media/neuralimages/learningrate.png)
 
-![maxewrrorrate](neuralimages/maxewrrorrate.png)
+![maxewrrorrate](/media/neuralimages/maxewrrorrate.png)
 
 I observed that learning rate and max error rate were the most efficient
 at around 1% and increasing them had mostly negative effect on the
