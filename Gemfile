@@ -16,7 +16,6 @@ gem 'autoprefixer-rails', '~> 6.7', '>= 6.7.2'
 gem 'nokogiri', '~> 1.7', '>= 1.7.0.1'
 gem 'fastimage', '~> 2.0', '>= 2.0.1'
 gem 'carrierwave', '~> 1.0'
-gem 'rmagick', '~> 2.15', '>= 2.15.4'
 gem 'sqlite3', '~> 1.3', '< 1.4'
 gem 'kramdown', '~> 2.1'
 gem 'unicorn'
@@ -58,7 +57,7 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
-  
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'

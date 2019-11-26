@@ -1,6 +1,6 @@
 # How to install and setup
 
-1. Install system dependencies ```sudo apt-get install ruby-dev imagemagick libmagickwand-dev libmysqld-dev libsqlite3-dev nodejs -y
+1. Install system dependencies ```sudo apt-get install ruby-dev libsqlite3-dev nodejs libxml2-dev -y
 sudo gem install bundle```
 1. Install rails dependencies `bundle install --path vendor`
 1. Update bundle dependencies `bundle update`
