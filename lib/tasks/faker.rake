@@ -192,24 +192,23 @@ HERE
     static_dir = 'plamen-kolev.github.io'
     Dir.mkdir(static_dir) unless File.exists?(static_dir)
     Dir.mkdir("#{static_dir}/articles") unless File.exists?("#{static_dir}/articles")
-    File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(index_page) }
-    File.open("plamen-kolev.github.io/articles.html", "w") { |file| file.write(articles_all) }
+    File.open("plamen-kolev.github.io/index.html", "w+") { |file| file.write(index_page) }
+    File.open("plamen-kolev.github.io/articles.html", "w+") { |file| file.write(articles_all) }
     # File.open("plamen-kolev.github.io/creative.html", "w") { |file| file.write(creative) }
-    File.open("plamen-kolev.github.io/biography.html", "w") { |file| file.write(biography) }
-    File.open("plamen-kolev.github.io/404.html", "w") { |file| file.write(four_oh_four) }
+    File.open("plamen-kolev.github.io/biography.html", "w+") { |file| file.write(biography) }
+    File.open("plamen-kolev.github.io/404.html", "w+") { |file| file.write(four_oh_four) }
     # keybase verification signature
-    File.open("plamen-kolev.github.io/keybase.txt", "w") { |file| file.write(keybase) }
+    File.open("plamen-kolev.github.io/keybase.txt", "w+") { |file| file.write(keybase) }
     # CNAME from namecheap
-    File.open("plamen-kolev.github.io/CNAME", "w") { |file| file.write(cname) }
-    File.open("plamen-kolev.github.io/robots.txt", "w") { |file| file.write(robots) }
-
+    File.open("plamen-kolev.github.io/CNAME", "w+") { |file| file.write(cname) }
+    File.open("plamen-kolev.github.io/robots.txt", "w+") { |file| file.write(robots) }
     # now to write each article
     all_articles.each do |article|
       html_article = PagesController.render(
         template: 'articles/show',
         assigns: { article: article }
       )
-      File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w") { |file| file.write(html_article) }
+      File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w+") { |file| file.write(html_article) }
     end
 
 
