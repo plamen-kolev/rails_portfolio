@@ -35,10 +35,10 @@ HEREDOC
       # ======= EXPERIENCE
             {
         :type => 'experience',
-        :title => 'Software Engineer, <br/>BookingGo',
+        :title => 'Software Engineer, <br/>Booking.com',
 
         :date => 'November 2018 - Present',
-        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/bookinggo.md")).to_html,
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/booking.md")).to_html,
       },
       {
         :type => 'experience',
@@ -190,6 +190,7 @@ HERE
 
     # before file operations, create dependant folders
     static_dir = 'plamen-kolev.github.io'
+    puts("writing stuff")
     Dir.mkdir(static_dir) unless File.exists?(static_dir)
     Dir.mkdir("#{static_dir}/articles") unless File.exists?("#{static_dir}/articles")
     File.open("plamen-kolev.github.io/index.html", "w+") { |file| file.write(index_page) }
@@ -211,9 +212,11 @@ HERE
       File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w+") { |file| file.write(html_article) }
     end
 
+    FileUtils.rm_rf(Dir.glob("#{Rails.root}/plamen-kolev.github.io/assets/*"))
+    FileUtils.rm_rf(Dir.glob("#{Rails.root}/plamen-kolev.github.io/media/"))
 
-    FileUtils.copy_entry("#{Rails.public_path}/assets", "#{Rails.root}/plamen-kolev.github.io/assets/", force = true)
-    FileUtils.copy_entry("#{Rails.public_path}/media", "#{Rails.root}/plamen-kolev.github.io/media", force = true)
+    FileUtils.cp_r("#{Rails.public_path}/assets/.", "#{Rails.root}/plamen-kolev.github.io/assets/")
+    FileUtils.cp_r("#{Rails.public_path}/media/.", "#{Rails.root}/plamen-kolev.github.io/media/")
   end
 
 
