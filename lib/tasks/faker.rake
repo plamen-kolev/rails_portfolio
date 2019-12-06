@@ -17,14 +17,14 @@ HEREDOC
     a.save
 
     # now to generate artworks
-    for i in %w(cr.jpg hackne_logo.jpg hackne_poster.jpg hackne_print.jpg lloyds_bank.jpg lux.png neven.jpg spendwell_poster.jpg spenwell_app.jpg stage_tuts.jpg)
-      
-      File.open("#{Rails.public_path}/media/images/creative/#{i}") do |f|
-        Artwork.create(
-          image: f
-        )
-      end
-    end
+    # for i in %w(cr.jpg hackne_logo.jpg hackne_poster.jpg hackne_print.jpg lloyds_bank.jpg lux.png neven.jpg spendwell_poster.jpg spenwell_app.jpg stage_tuts.jpg)
+    #
+    #   File.open("#{Rails.public_path}/media/images/creative/#{i}") do |f|
+    #     Artwork.create(
+    #       image: f
+    #     )
+    #   end
+    # end
 
     # generate cv content
 
@@ -35,10 +35,10 @@ HEREDOC
       # ======= EXPERIENCE
             {
         :type => 'experience',
-        :title => 'Software Engineer, <br/>BookingGo',
+        :title => 'Software Engineer, <br/>Booking.com',
 
         :date => 'November 2018 - Present',
-        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/bookinggo.md")).to_html,
+        :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/booking.md")).to_html,
       },
       {
         :type => 'experience',
@@ -107,7 +107,7 @@ HEREDOC
 
     ]
 
-    
+
     for i in data do
       Skill.create(
         skill_type:   i[:type],
@@ -116,7 +116,7 @@ HEREDOC
         body:   i[:body]
       )
     end
-    
+
     # Now generate the static website
     all_articles = Article.all
     ## index
@@ -130,15 +130,15 @@ HEREDOC
       assigns: { articles: all_articles }
     )
 
-    creative = PagesController.render(
-      template: 'creatives/index',
-      assigns: { artworks: Artwork.all }
-    )
+    # creative = PagesController.render(
+    #   template: 'creatives/index',
+    #   assigns: { artworks: Artwork.all }
+    # )
 
 
     # grab all bio relevant stuff
     @skills = Skill.all
-    
+
     @about
     @work_experience = []
     @education = []
@@ -159,7 +159,7 @@ HEREDOC
 
     biography = PagesController.render(
       template: 'biography/index',
-      assigns: { 
+      assigns: {
         about: @about,
         work_experience: @work_experience,
         education: @education,
@@ -190,31 +190,33 @@ HERE
 
     # before file operations, create dependant folders
     static_dir = 'plamen-kolev.github.io'
+    puts("writing stuff")
     Dir.mkdir(static_dir) unless File.exists?(static_dir)
     Dir.mkdir("#{static_dir}/articles") unless File.exists?("#{static_dir}/articles")
-    File.open("plamen-kolev.github.io/index.html", "w") { |file| file.write(index_page) }
-    File.open("plamen-kolev.github.io/articles.html", "w") { |file| file.write(articles_all) }
-    File.open("plamen-kolev.github.io/creative.html", "w") { |file| file.write(creative) }
-    File.open("plamen-kolev.github.io/biography.html", "w") { |file| file.write(biography) }
-    File.open("plamen-kolev.github.io/404.html", "w") { |file| file.write(four_oh_four) }
+    File.open("plamen-kolev.github.io/index.html", "w+") { |file| file.write(index_page) }
+    File.open("plamen-kolev.github.io/articles.html", "w+") { |file| file.write(articles_all) }
+    # File.open("plamen-kolev.github.io/creative.html", "w") { |file| file.write(creative) }
+    File.open("plamen-kolev.github.io/biography.html", "w+") { |file| file.write(biography) }
+    File.open("plamen-kolev.github.io/404.html", "w+") { |file| file.write(four_oh_four) }
     # keybase verification signature
-    File.open("plamen-kolev.github.io/keybase.txt", "w") { |file| file.write(keybase) }
+    File.open("plamen-kolev.github.io/keybase.txt", "w+") { |file| file.write(keybase) }
     # CNAME from namecheap
-    File.open("plamen-kolev.github.io/CNAME", "w") { |file| file.write(cname) }
-    File.open("plamen-kolev.github.io/robots.txt", "w") { |file| file.write(robots) }
-
+    File.open("plamen-kolev.github.io/CNAME", "w+") { |file| file.write(cname) }
+    File.open("plamen-kolev.github.io/robots.txt", "w+") { |file| file.write(robots) }
     # now to write each article
     all_articles.each do |article|
       html_article = PagesController.render(
         template: 'articles/show',
         assigns: { article: article }
       )
-      File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w") { |file| file.write(html_article) }
+      File.open("plamen-kolev.github.io/articles/#{article.slug}.html", "w+") { |file| file.write(html_article) }
     end
 
+    FileUtils.rm_rf(Dir.glob("#{Rails.root}/plamen-kolev.github.io/assets/*"))
+    FileUtils.rm_rf(Dir.glob("#{Rails.root}/plamen-kolev.github.io/media/"))
 
-    FileUtils.copy_entry("#{Rails.public_path}/assets", "#{Rails.root}/plamen-kolev.github.io/assets/", force = true)
-    FileUtils.copy_entry("#{Rails.public_path}/media", "#{Rails.root}/plamen-kolev.github.io/media", force = true)
+    FileUtils.cp_r("#{Rails.public_path}/assets/.", "#{Rails.root}/plamen-kolev.github.io/assets/")
+    FileUtils.cp_r("#{Rails.public_path}/media/.", "#{Rails.root}/plamen-kolev.github.io/media/")
   end
 
 

@@ -6,9 +6,9 @@
         </div>
         <div class="col-md-7 col-sm-7 cv_header_info">
             <p>
-                Email: <a  href="mailto:p.kolev22@gmail.com">p.kolev22@gmail.com</a></br>
-                LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/plamen-kolev-465915a7">https://www.linkedin.com/in/plamen-kolev/</a><br/>
-                Github: <a target="_blank" href="https://github.com/plamen-kolev">https://github.com/plamen-kolev</a>
+                Email: <a href="mailto:<%= Rails.application.config.email %>"><%= Rails.application.config.email %></a></br>
+                LinkedIn: <a target="_blank" href="<%= Rails.application.config.linkedin %>"><%= Rails.application.config.linkedin %></a><br/>
+                Github: <a target="_blank" href="<%= Rails.application.config.github %>"><%= Rails.application.config.github %></a>
             </p>
         </div>
     </div>
@@ -17,14 +17,12 @@
 <div class="col-md-12 clearfix top_margin">
     <div class="wrapper experience">
         <div class="col-md-6">
-            
-        
             <div>
                 <h2>About</h2>
                 <p><%= @about.body.html_safe %></p>
             </div>
             <%= @work %>
-            
+
             <div>
                 <h2>Work Experience</h2>
             </div>
@@ -34,9 +32,9 @@
                     <h3><%= w.title.html_safe %></h3>
                     <h4><%= w.date %></h4>
                     <p><%= w.body.html_safe %></p>
-                </div>    
-            <% end %> 
-        </div>   
+                </div>
+            <% end %>
+        </div>
         <div class="col-md-6">
             <div>
                 <h2>Education</h2>
@@ -49,7 +47,7 @@
                     <p><%= e.body.html_safe %></p>
                 </div>
             <% end %>
-            
+
             <div>
                 <h2>Projects</h2>
             </div>
@@ -61,12 +59,12 @@
                     <p><%= p.body.html_safe %></p>
                 </div>
             <% end %>
-            
+
         </div>
     </div>
 
     <div class="col-md-12 center web_only">
-        <a class="special_button" href="/media/cv.pdf">Download PDF version</a>
+        <a class="special_button" href="<%= Rails.application.config.cv_url %>">Download PDF version</a>
     </div>
 </div>
 

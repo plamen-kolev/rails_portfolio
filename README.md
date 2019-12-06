@@ -1,7 +1,9 @@
 # How to install and setup
 
-1. Install system dependencies ```sudo apt-get install ruby-dev imagemagick libmagickwand-dev libmysqld-dev libsqlite3-dev nodejs -y
-sudo gem install bundle```
+1. Install system dependencies ```sudo apt-get install ruby-dev libsqlite3-dev nodejs libxml2-dev -y
+sudo gem install bundle
+sudo gem install rails
+```
 1. Install rails dependencies `bundle install --path vendor`
 1. Update bundle dependencies `bundle update`
 1. Run rake task to initialize project and for it to do static compilation to `/plamen-kolev.github.io`
@@ -11,3 +13,4 @@ sudo gem install bundle```
 1. in `/media/images/creative/` you can drop images and the will be converted to html items and thumbnails
 1. New articles can be written when the application boots by going to appurl/admin, but first `/bin/rails c` followed by `Admin.create(:email => 'admin@kolev.io', :password => 'password', :password_confirmation => 'password')` to create the admin user
     * they would have to be appended to the initializer task so they 'persist'
+1. Start local server that will be the end result with `bin/rake serve:static`
