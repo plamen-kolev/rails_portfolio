@@ -37,7 +37,7 @@ HEREDOC
         :type => 'experience',
         :title => 'Software Engineer, <br/>Booking.com',
 
-        :date => 'November 2018 - Present',
+        :date => 'November 2018 - January 2020',
         :body => Kramdown::Document.new(File.read("#{Rails.root}/resources/biography/work/booking.md")).to_html,
       },
       {
