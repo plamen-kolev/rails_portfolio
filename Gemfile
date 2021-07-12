@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # custom gems
-gem 'addressable', '~> 2.5'
+gem 'addressable', '~> 2.8'
 gem 'rake', '~> 12.0'
 gem 'execjs', '~> 2.7'
 gem 'minitest', '~> 5.10', '>= 5.10.1'
